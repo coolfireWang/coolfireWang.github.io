@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Demain&#39;s Page</title>
-  <subtitle>just-do-it</subtitle>
+  <subtitle>身体和心灵必须有一个在路上！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-07-24T14:02:09.125Z</updated>
+  <updated>2016-08-06T05:50:31.462Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://coolfireWang.github.io/2016/08/06/why-do-it/"/>
+    <id>http://coolfireWang.github.io/2016/08/06/why-do-it/</id>
+    <published>2016-08-06T05:01:51.143Z</published>
+    <updated>2016-08-06T05:50:31.462Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h1><p> 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想便一边学一边总结和实践</p>
+<h1 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;为什么写&quot;&gt;&lt;a href=&quot;#为什么写&quot; class=&quot;headerlink&quot; title=&quot;为什么写&quot;&gt;&lt;/a&gt;为什么写&lt;/h1&gt;&lt;p&gt; 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
