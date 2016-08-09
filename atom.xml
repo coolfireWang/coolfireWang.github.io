@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-08-06T08:40:03.200Z</updated>
+  <updated>2016-08-09T06:55:09.967Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://coolfireWang.github.io/2016/08/06/why-do-it/"/>
     <id>http://coolfireWang.github.io/2016/08/06/why-do-it/</id>
     <published>2016-08-06T05:01:51.143Z</published>
-    <updated>2016-08-06T08:40:03.200Z</updated>
+    <updated>2016-08-09T06:55:09.967Z</updated>
     
     <content type="html"><![CDATA[<hr>
 <p>title: 开篇</p>
 <h1 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h1><p> 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想便一边学一边总结和实践。<br> 所谓万事开头难，今天就从这里开始</p>
-<h1 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h1><p> 写什么呢？作为一个coder 肯定是些技术相关的文章了，而作为一个Front-End 当然是写一下javascipt ,html，css，等相关的技术了，当然了我也会关注些full-stack技术，<br> 至于工具什么当然不能缺少了。。。。<br> 总之技术太多更新太快，万丈高楼平地起，当然是重最基础的开始了。</p>
+<h1 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h1><p> 写什么呢？作为一个coder 肯定是些技术相关的文章了，而作为一个Front-End 当然是写一下javascipt ,html(5)，css(3)，浏览器存储，缓存，优化，ajax,mvc,mvvm各种库等相关的技术了，当然了我也会关注些full-stack技术，<br> 主流的UI ,架构解决方案等<br> 至于工具什么当然不能缺少了。。。。<br> 总之技术太多更新太快，万丈高楼平地起，当然是重最基础的开始了。<br> let’s do it!</p>
 ]]></content>
     
     <summary type="html">
