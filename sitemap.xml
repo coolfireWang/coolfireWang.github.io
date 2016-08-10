@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/tags/index.html</loc>
+    
+    <lastmod>2016-08-10T03:39:43.180Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://coolfireWang.github.io/categories/index.html</loc>
+    
+    <lastmod>2016-08-10T03:39:43.149Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/2016/08/10/datatype/</loc>
     
     <lastmod>2016-08-10T03:34:51.884Z</lastmod>
@@ -16,23 +30,9 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/categories/index.html</loc>
-    
-    <lastmod>2016-08-09T16:34:56.716Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://coolfireWang.github.io/2016/08/06/why-do-it/</loc>
     
     <lastmod>2016-08-09T15:59:16.183Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/tags/index.html</loc>
-    
-    <lastmod>2016-08-09T13:43:36.606Z</lastmod>
     
   </url>
   
