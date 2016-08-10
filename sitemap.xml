@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/2016/08/10/datatype/</loc>
+    
+    <lastmod>2016-08-10T11:29:40.120Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/about.html</loc>
     
     <lastmod>2016-08-10T05:45:19.781Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://coolfireWang.github.io/tags/index.html</loc>
     
     <lastmod>2016-08-10T05:20:59.843Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/2016/08/10/datatype/</loc>
-    
-    <lastmod>2016-08-10T05:05:22.457Z</lastmod>
     
   </url>
   
