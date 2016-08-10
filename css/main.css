@@ -292,6 +292,7 @@ ul {
 blockquote {
   margin: 0;
   padding: 0;
+  background-color: #0e2231;
 }
 img {
   display: block;
@@ -1548,7 +1549,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff7d7f;
+  background: #c2ff6e;
 }
 .links-of-blogroll {
   font-size: 13px;
