@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Demain's Page">
 <meta property="og:description" content="javascript 数据类型
  ECMA-262 这么定义的   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language typ">
-<meta property="og:updated_time" content="2016-08-10T11:54:06.110Z">
+<meta property="og:updated_time" content="2016-08-10T11:55:00.217Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="彻底理解javascript数据类型">
 <meta name="twitter:description" content="javascript 数据类型
@@ -361,7 +361,7 @@
         <h1 id="javascript-数据类型"><a href="#javascript-数据类型" class="headerlink" title="javascript 数据类型"></a>javascript 数据类型</h1><blockquote>
 <p> <strong>ECMA-262 这么定义的</strong><br>   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language types are <strong>Undefined</strong>, <strong>Null</strong>,<strong> Boolean</strong>, <strong>String</strong>, <strong>Number</strong>, and <strong>Object</strong>.<br><br><br>ECMAScript 中有5种简单的数据类型行（也称基本数据类型）Undefined 、Null、Boolean、Number和String ,还有一种复杂的数据类型–Object,<br>  Object本质上市由一组无序的键值对组成的，ECMAScript 不支持任何创建之定义类型的机制，所有的值都将是上述的6种类型之一。你会觉得好像6中数据类型不足以表示所有数据。其实不然，由于ECMAScrip是弱类型语言 数据类型具有动态性，所以就没有定义其他类型的必要了。</p>
 </blockquote>
-<p>###既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?<br>  ECMAScript 给了我们一种手段来检测给定变量的数据类型<strong>typeof</strong>对一个值使用typeof操作符可能返回下列某个字符串：</p>
+<h3 id="既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><a href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢" class="headerlink" title="既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?"></a>既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</h3><p>  ECMAScript 给了我们一种手段来检测给定变量的数据类型<strong>typeof</strong>对一个值使用typeof操作符可能返回下列某个字符串：</p>
 <ul>
 <li>“underfined” —-如果这个值未被定义</li>
 <li>“boolean”—-如果这个值是布尔值</li>
@@ -370,7 +370,7 @@
 <li>“object”—-如果这个值对象是null</li>
 <li>“functon” —-如果这个值是函数</li>
 </ul>
-<p>#####Example<br>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span>  msg=<span class="string">"test"</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> msg); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span>(msg)); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> <span class="number">21</span>); <span class="comment">//"number"</span></div></pre></td></tr></table></figure></p>
+<h5 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h5>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span>  msg=<span class="string">"test"</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> msg); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span>(msg)); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> <span class="number">21</span>); <span class="comment">//"number"</span></div></pre></td></tr></table></figure>
 
       
     </div>
@@ -568,7 +568,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><span class="nav-number">1.0.1.</span> <span class="nav-text">既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Example"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">Example</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>
