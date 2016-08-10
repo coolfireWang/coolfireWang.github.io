@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Demain's Page">
 <meta property="og:description" content="javascript 数据类型
  ECMA-262 这么定义的   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language typ">
-<meta property="og:updated_time" content="2016-08-10T11:55:00.217Z">
+<meta property="og:updated_time" content="2016-08-10T12:00:48.871Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="彻底理解javascript数据类型">
 <meta name="twitter:description" content="javascript 数据类型
@@ -371,6 +371,10 @@
 <li>“functon” —-如果这个值是函数</li>
 </ul>
 <h5 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h5>  <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span>  msg=<span class="string">"test"</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> msg); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span>(msg)); <span class="comment">//"string"</span></div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> <span class="number">21</span>); <span class="comment">//"number"</span></div></pre></td></tr></table></figure>
+<ul>
+<li>注 typeof 是操作符 不是函数尽管带（）可以使用 但不是必须的也不推荐这么用</li>
+<li>虽然function 在ECMAScript中是对象 不是一种数据类型但函数也有一些特殊的属性，因此通过typeof 操作符来区分函数和其他对象是有必要的</li>
+</ul>
 
       
     </div>
