@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-08-10T12:01:59.605Z</updated>
+  <updated>2016-08-10T12:10:44.426Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>彻底理解javascript数据类型</title>
+    <title>彻底理解javascript 之==和===</title>
+    <link href="http://coolfireWang.github.io/2016/08/10/dataComp/"/>
+    <id>http://coolfireWang.github.io/2016/08/10/dataComp/</id>
+    <published>2016-08-10T12:06:36.444Z</published>
+    <updated>2016-08-10T12:10:44.426Z</updated>
+    
+    <content type="html"><![CDATA[<p>  之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之数据类型</title>
     <link href="http://coolfireWang.github.io/2016/08/10/datatype/"/>
     <id>http://coolfireWang.github.io/2016/08/10/datatype/</id>
     <published>2016-08-10T03:30:59.863Z</published>
-    <updated>2016-08-10T12:01:59.605Z</updated>
+    <updated>2016-08-10T12:10:44.387Z</updated>
     
     <content type="html"><![CDATA[<h1 id="javascript-数据类型"><a href="#javascript-数据类型" class="headerlink" title="javascript 数据类型"></a>javascript 数据类型</h1><blockquote>
 <p> <strong>ECMA-262 这么定义的</strong><br>   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language types are <strong>Undefined</strong>, <strong>Null</strong>,<strong> Boolean</strong>, <strong>String</strong>, <strong>Number</strong>, and <strong>Object</strong>.<br><br><br>ECMAScript 中有5种简单的数据类型行（也称基本数据类型）Undefined 、Null、Boolean、Number和String ,还有一种复杂的数据类型–Object,<br>  Object本质上市由一组无序的键值对组成的，ECMAScript 不支持任何创建之定义类型的机制，所有的值都将是上述的6种类型之一。你会觉得好像6中数据类型不足以表示所有数据。其实不然，由于ECMAScrip是弱类型语言 数据类型具有动态性，所以就没有定义其他类型的必要了。</p>
