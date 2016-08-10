@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-08-09T15:24:41.599Z</updated>
+  <updated>2016-08-10T03:21:27.807Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>javascript数据类型</title>
+    <link href="http://coolfireWang.github.io/2016/08/10/understand-dataType/"/>
+    <id>http://coolfireWang.github.io/2016/08/10/understand-dataType/</id>
+    <published>2016-08-10T03:05:53.317Z</published>
+    <updated>2016-08-10T03:21:27.807Z</updated>
+    
+    <content type="html"><![CDATA[<p>  ##</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  ##&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="彻底理解js系列" scheme="http://coolfireWang.github.io/tags/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3js%E7%B3%BB%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>前端工程师该具备怎样的技能呢</title>
     <link href="http://coolfireWang.github.io/2016/08/09/front-end/"/>
     <id>http://coolfireWang.github.io/2016/08/09/front-end/</id>
     <published>2016-08-09T14:00:43.754Z</published>
-    <updated>2016-08-09T15:24:41.599Z</updated>
+    <updated>2016-08-10T03:20:30.007Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一个合格的前端工程师应该具备怎样的能力？"><a href="#一个合格的前端工程师应该具备怎样的能力？" class="headerlink" title="一个合格的前端工程师应该具备怎样的能力？"></a>一个合格的前端工程师应该具备怎样的能力？</h2><p> 首先你要知道什么是前端。<br> 前端工程师的英文名为front-end engineer，简称FE<br> 前端都干些什么呢？无非是三大块：html / css / js，但如果就这样，那前端也不过如此，<br> 现在意义上的前端（并非只制作网页）<br> 2011年之前，FE的工作基本都是由服务端工程师包办的，或者是由设计师来产出HTML页面。</p>
 <h3 id="用户体验的把控者"><a href="#用户体验的把控者" class="headerlink" title="用户体验的把控者"></a>用户体验的把控者</h3><p> 前端工程师的主要的工作就是开发用户界面，在web系统中，就是指网页了。为什么网页需要专门的FE来写呢？答案就是为了「用户体验」。<br> 从web2.0概念的普及到web3.0的提出，用户成为互联网的主要生产者，网页所承载的功能愈加丰富多样。<br> <br><br> 首先是企业的需求：如果你的网站、app等界面做的很丑的话，我相信大众是不能接受的开发者也作为第一个使用者估计都看不过去。<br> 其次是用户的需求：现在的用户也都很挑剔。毕竟他们使用的产品各个都要么炫酷要么清爽，都被惯坏了，你的产品稍有点不爽的地方，“影响我心情不爽给你个差评”，要么就直接卸载这样你的用户就这么流失了，你的产品的价值就没了。<br> 想做出漂亮的界面你必须熟练布局 html css （h5 、css3），主流的布局风格，UI框架,响应式，浏览器兼容等<br> 随着HTML5的支持度越来越高，前端拥有的能力也会越强。比如利用canvas能够获取到图片上的每一个像素点，这样前端就拥有了图像处理能力。有了FileReader API，前端拥有了本地文件的读取能力，本地数据库，还有地理位置获取等等</p>
