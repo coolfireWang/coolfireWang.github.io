@@ -17,8 +17,8 @@
   
   <entry>
     <title>彻底理解javascript之 正则</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/regex/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/regex/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-regex.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-regex.html</id>
     <published>2016-09-12T07:09:55.179Z</published>
     <updated>2016-09-12T07:11:01.718Z</updated>
     
@@ -37,8 +37,8 @@
   
   <entry>
     <title>彻底理解javascript之 定时器</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/timer/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/timer/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-timer.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-timer.html</id>
     <published>2016-09-12T07:08:38.814Z</published>
     <updated>2016-09-12T07:11:01.750Z</updated>
     
@@ -57,8 +57,8 @@
   
   <entry>
     <title>我的简历</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/curriculumVitae/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/curriculumVitae/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-curriculumVitae.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-curriculumVitae.html</id>
     <published>2016-09-12T06:57:40.703Z</published>
     <updated>2016-09-12T07:01:21.189Z</updated>
     
@@ -83,8 +83,8 @@
   
   <entry>
     <title>彻底理解javascript之 跨域</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/cross-domain/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/cross-domain/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-cross-domain.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-cross-domain.html</id>
     <published>2016-09-12T06:55:21.410Z</published>
     <updated>2016-09-12T07:01:21.093Z</updated>
     
@@ -103,8 +103,8 @@
   
   <entry>
     <title>彻底理解javascript之 垃圾回收</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/gc/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/gc/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-gc.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-gc.html</id>
     <published>2016-09-12T06:53:41.324Z</published>
     <updated>2016-09-12T07:01:21.154Z</updated>
     
@@ -123,8 +123,8 @@
   
   <entry>
     <title>彻底理解javascript之 函数回调</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/callbcak/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/callbcak/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-callbcak.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-callbcak.html</id>
     <published>2016-09-12T06:52:35.263Z</published>
     <updated>2016-09-12T07:01:21.123Z</updated>
     
@@ -143,8 +143,8 @@
   
   <entry>
     <title>彻底理解javascript之 设计模式</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/designPattern/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/designPattern/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-designPattern.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-designPattern.html</id>
     <published>2016-09-12T06:51:42.048Z</published>
     <updated>2016-09-12T07:01:21.061Z</updated>
     
@@ -163,8 +163,8 @@
   
   <entry>
     <title>彻底理解javascript之 同步和异步</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/syncAndAsync/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/syncAndAsync/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-syncAndAsync.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-syncAndAsync.html</id>
     <published>2016-09-12T06:31:41.897Z</published>
     <updated>2016-09-12T06:42:12.835Z</updated>
     
@@ -183,8 +183,8 @@
   
   <entry>
     <title>彻底理解javascript之 作用域&amp;作用域链</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/actionScope/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/actionScope/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-actionScope.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-actionScope.html</id>
     <published>2016-09-12T06:29:43.145Z</published>
     <updated>2016-09-12T06:47:27.927Z</updated>
     
@@ -203,8 +203,8 @@
   
   <entry>
     <title>彻底理解javascript之 事件&amp;循环</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/eventsLoop/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/eventsLoop/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-eventsLoop.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-eventsLoop.html</id>
     <published>2016-09-12T06:28:12.731Z</published>
     <updated>2016-09-12T06:47:27.896Z</updated>
     
@@ -223,8 +223,8 @@
   
   <entry>
     <title>彻底理解javascript之 继承</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/extend/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/extend/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-extend.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-extend.html</id>
     <published>2016-09-12T06:24:32.923Z</published>
     <updated>2016-09-12T06:32:34.082Z</updated>
     
@@ -247,8 +247,8 @@
   
   <entry>
     <title>彻底理解javascript之 闭包</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/closure/"/>
-    <id>http://coolfireWang.github.io/2016/09/12/closure/</id>
+    <link href="http://coolfireWang.github.io/2016-09-12-closure.html"/>
+    <id>http://coolfireWang.github.io/2016-09-12-closure.html</id>
     <published>2016-09-12T06:15:03.681Z</published>
     <updated>2016-09-12T06:32:32.937Z</updated>
     
@@ -269,8 +269,8 @@
   
   <entry>
     <title>马哥专属</title>
-    <link href="http://coolfireWang.github.io/2016/09/07/test/"/>
-    <id>http://coolfireWang.github.io/2016/09/07/test/</id>
+    <link href="http://coolfireWang.github.io/2016-09-07-test.html"/>
+    <id>http://coolfireWang.github.io/2016-09-07-test.html</id>
     <published>2016-09-07T14:05:41.433Z</published>
     <updated>2016-09-08T05:16:31.008Z</updated>
     
@@ -302,8 +302,8 @@
   
   <entry>
     <title>开篇</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/why-do-it/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/why-do-it/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-why-do-it.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-why-do-it.html</id>
     <published>2016-08-24T15:10:42.941Z</published>
     <updated>2016-08-09T15:59:16.183Z</updated>
     
@@ -326,8 +326,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/hello-world/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/hello-world/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-hello-world.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-hello-world.html</id>
     <published>2016-08-24T15:10:42.932Z</published>
     <updated>2016-07-24T14:02:09.125Z</updated>
     
@@ -353,8 +353,8 @@
   
   <entry>
     <title>前端工程师该具备怎样的技能呢</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/front-end/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/front-end/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-front-end.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-front-end.html</id>
     <published>2016-08-24T15:10:42.929Z</published>
     <updated>2016-09-07T15:29:20.576Z</updated>
     
@@ -378,8 +378,8 @@
   
   <entry>
     <title>彻底理解javascript之数据类型</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/datatype/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/datatype/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-datatype.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-datatype.html</id>
     <published>2016-08-24T15:10:42.927Z</published>
     <updated>2016-08-10T12:10:44.387Z</updated>
     
@@ -418,8 +418,8 @@
   
   <entry>
     <title>彻底理解javascript 之==和===</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/dataComp/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/dataComp/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-dataComp.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-dataComp.html</id>
     <published>2016-08-24T15:10:42.925Z</published>
     <updated>2016-09-07T15:00:51.711Z</updated>
     
@@ -442,8 +442,8 @@
   
   <entry>
     <title>彻底理解javascript之数组和对象</title>
-    <link href="http://coolfireWang.github.io/2016/08/24/arrayObj/"/>
-    <id>http://coolfireWang.github.io/2016/08/24/arrayObj/</id>
+    <link href="http://coolfireWang.github.io/2016-08-24-arrayObj.html"/>
+    <id>http://coolfireWang.github.io/2016-08-24-arrayObj.html</id>
     <published>2016-08-24T15:10:42.922Z</published>
     <updated>2016-09-07T15:28:09.385Z</updated>
     
