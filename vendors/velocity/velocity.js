@@ -1289,7 +1289,7 @@ return function (global, window, document, undefined) {
                 Batched Registrations
             *****************************/
 
-            /* Note: Batched normalizations extend the CSS.Normalizations.registered object. */
+            /* Note: Batched normalizations extend.md the CSS.Normalizations.registered object. */
             register: function () {
 
                 /*****************
@@ -2190,7 +2190,7 @@ return function (global, window, document, undefined) {
                             }
 
                             /* Iterate through the calls targeted by the stop command. */
-                            $.each(elements, function(l, element) {                                
+                            $.each(elements, function(l, element) {
                                 /* Check that this call was applied to the target element. */
                                 if (element === activeElement) {
                                     /* Optionally clear the remaining queued calls. */
@@ -2289,7 +2289,7 @@ return function (global, window, document, undefined) {
                             opts.duration = Math.max(opts.duration * (opts.backwards ? 1 - elementIndex/elementsLength : (elementIndex + 1) / elementsLength), opts.duration * 0.75, 200);
                         }
 
-                        /* Pass in the call's opts object so that the redirect can optionally extend it. It defaults to an empty object instead of null to
+                        /* Pass in the call's opts object so that the redirect can optionally extend.md it. It defaults to an empty object instead of null to
                            reduce the opts checking logic required inside the redirect. */
                         Velocity.Redirects[propertiesMap].call(element, element, opts || {}, elementIndex, elementsLength, elements, promiseData.promise ? promiseData : undefined);
                     });
@@ -3473,7 +3473,7 @@ return function (global, window, document, undefined) {
                             tween.currentValue = currentValue;
 
                             /* If we're tweening a fake 'tween' property in order to log transition values, update the one-per-call variable so that
-                               it can be passed into the progress callback. */ 
+                               it can be passed into the progress callback. */
                             if (property === "tween") {
                                 tweenDummyValue = currentValue;
                             } else {

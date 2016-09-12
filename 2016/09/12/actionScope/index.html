@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="javascript," />
+  <meta name="keywords" content="javascript-作用域&作用域链," />
 
 
 
@@ -86,16 +86,16 @@
 
 
 
-<meta name="description" content="数组(array)对象（object）">
+<meta name="description" content="记录生活点滴">
 <meta property="og:type" content="article">
-<meta property="og:title" content="彻底理解javascript之数组和对象">
-<meta property="og:url" content="http://coolfireWang.github.io/2016/08/24/arrayObj/index.html">
+<meta property="og:title" content="彻底理解javascript之 作用域&作用域链">
+<meta property="og:url" content="http://coolfireWang.github.io/2016/09/12/actionScope/index.html">
 <meta property="og:site_name" content="Demain's Page">
-<meta property="og:description" content="数组(array)对象（object）">
-<meta property="og:updated_time" content="2016-09-07T15:28:09.385Z">
+<meta property="og:description" content="记录生活点滴">
+<meta property="og:updated_time" content="2016-09-12T06:32:33.807Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="彻底理解javascript之数组和对象">
-<meta name="twitter:description" content="数组(array)对象（object）">
+<meta name="twitter:title" content="彻底理解javascript之 作用域&作用域链">
+<meta name="twitter:description" content="记录生活点滴">
 
 
 
@@ -116,9 +116,9 @@
 
 
 
-  <link rel="canonical" href="http://coolfireWang.github.io/2016/08/24/arrayObj/"/>
+  <link rel="canonical" href="http://coolfireWang.github.io/2016/09/12/actionScope/"/>
 
-  <title> 彻底理解javascript之数组和对象 | Demain's Page </title>
+  <title> 彻底理解javascript之 作用域&作用域链 | Demain's Page </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -284,7 +284,7 @@
             
             
               
-                彻底理解javascript之数组和对象
+                彻底理解javascript之 作用域&作用域链
               
             
           </h1>
@@ -296,8 +296,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-24T23:10:42+08:00" content="2016-08-24">
-              2016-08-24
+            <time itemprop="dateCreated" datetime="2016-09-12T14:29:43+08:00" content="2016-09-12">
+              2016-09-12
             </time>
           </span>
 
@@ -326,8 +326,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/08/24/arrayObj/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/24/arrayObj/" itemprop="commentsCount"></span>
+                <a href="/2016/09/12/actionScope/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/12/actionScope/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -355,7 +355,7 @@
       
 
       
-        <h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>
+        
       
     </div>
 
@@ -377,7 +377,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/javascript/" rel="tag">#javascript</a>
+            <a href="/tags/javascript-作用域-作用域链/" rel="tag">#javascript-作用域&作用域链</a>
           
         </div>
       
@@ -386,12 +386,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/09/12/eventsLoop/" rel="next" title="彻底理解javascript之 事件&循环">
+                <i class="fa fa-chevron-left"></i> 彻底理解javascript之 事件&循环
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/08/24/dataComp/" rel="prev" title="彻底理解javascript 之==和===">
-                彻底理解javascript 之==和=== <i class="fa fa-chevron-right"></i>
+              <a href="/2016/09/12/syncAndAsync/" rel="prev" title="彻底理解javascript之 同步和异步">
+                彻底理解javascript之 同步和异步 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -418,8 +422,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/08/24/arrayObj/"
-           data-title="彻底理解javascript之数组和对象" data-url="http://coolfireWang.github.io/2016/08/24/arrayObj/">
+      <div class="ds-thread" data-thread-key="2016/09/12/actionScope/"
+           data-title="彻底理解javascript之 作用域&作用域链" data-url="http://coolfireWang.github.io/2016/09/12/actionScope/">
       </div>
     
   </div>
@@ -552,7 +556,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数组-array"><span class="nav-number">1.</span> <span class="nav-text">数组(array)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对象（object）"><span class="nav-number">2.</span> <span class="nav-text">对象（object）</span></a></li></ol></div>
+              <p class="post-toc-empty">此文章未包含目录</p>
             
           </div>
         </section>
