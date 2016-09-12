@@ -5,29 +5,235 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-08-10T12:10:44.426Z</updated>
+  <updated>2016-09-12T07:11:01.718Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
-    <name>coolfireWang</name>
+    <name>Demain</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>彻底理解javascript 之==和===</title>
-    <link href="http://coolfireWang.github.io/2016/08/10/dataComp/"/>
-    <id>http://coolfireWang.github.io/2016/08/10/dataComp/</id>
-    <published>2016-08-10T12:06:36.444Z</published>
-    <updated>2016-08-10T12:10:44.426Z</updated>
+    <title>彻底理解javascript之 正则</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/regex/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/regex/</id>
+    <published>2016-09-12T07:09:55.179Z</published>
+    <updated>2016-09-12T07:11:01.718Z</updated>
     
-    <content type="html"><![CDATA[<p>  之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</p>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="正则表达式" scheme="http://coolfireWang.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 定时器</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/timer/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/timer/</id>
+    <published>2016-09-12T07:08:38.814Z</published>
+    <updated>2016-09-12T07:11:01.750Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="定时器" scheme="http://coolfireWang.github.io/tags/%E5%AE%9A%E6%97%B6%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的简历</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/curriculumVitae/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/curriculumVitae/</id>
+    <published>2016-09-12T06:57:40.703Z</published>
+    <updated>2016-09-12T07:01:21.189Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Demain’s简历"><a href="#Demain’s简历" class="headerlink" title="Demain’s简历"></a><p align="center">Demain’s简历</p></h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Demain’s简历&quot;&gt;&lt;a href=&quot;#Demain’s简历&quot; class=&quot;headerlink&quot; title=&quot;Demain’s简历&quot;&gt;&lt;/a&gt;&lt;p align=&quot;center&quot;&gt;Demain’s简历&lt;/p&gt;&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="其他" scheme="http://coolfireWang.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="前端工程师" scheme="http://coolfireWang.github.io/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88/"/>
+    
+      <category term="html5,css3,js" scheme="http://coolfireWang.github.io/tags/html5-css3-js/"/>
+    
+      <category term="nodejs" scheme="http://coolfireWang.github.io/tags/nodejs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 跨域</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/cross-domain/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/cross-domain/</id>
+    <published>2016-09-12T06:55:21.410Z</published>
+    <updated>2016-09-12T07:01:21.093Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="跨域" scheme="http://coolfireWang.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 垃圾回收</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/gc/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/gc/</id>
+    <published>2016-09-12T06:53:41.324Z</published>
+    <updated>2016-09-12T07:01:21.154Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="垃圾回收" scheme="http://coolfireWang.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 函数回调</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/callbcak/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/callbcak/</id>
+    <published>2016-09-12T06:52:35.263Z</published>
+    <updated>2016-09-12T07:01:21.123Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 设计模式</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/designPattern/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/designPattern/</id>
+    <published>2016-09-12T06:51:42.048Z</published>
+    <updated>2016-09-12T07:01:21.061Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="设计模式" scheme="http://coolfireWang.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 同步和异步</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/syncAndAsync/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/syncAndAsync/</id>
+    <published>2016-09-12T06:31:41.897Z</published>
+    <updated>2016-09-12T06:42:12.835Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="同步&amp;异步" scheme="http://coolfireWang.github.io/tags/%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 作用域&amp;作用域链</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/actionScope/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/actionScope/</id>
+    <published>2016-09-12T06:29:43.145Z</published>
+    <updated>2016-09-12T06:47:27.927Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="作用域&amp;作用域链" scheme="http://coolfireWang.github.io/tags/%E4%BD%9C%E7%94%A8%E5%9F%9F-%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 事件&amp;循环</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/eventsLoop/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/eventsLoop/</id>
+    <published>2016-09-12T06:28:12.731Z</published>
+    <updated>2016-09-12T06:47:27.896Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="事件" scheme="http://coolfireWang.github.io/tags/%E4%BA%8B%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 继承</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/extend/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/extend/</id>
+    <published>2016-09-12T06:24:32.923Z</published>
+    <updated>2016-09-12T06:32:34.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>javascript的概念</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;  之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：&lt;/p&gt;
+      &lt;p&gt;javascript的概念&lt;/p&gt;
 
     
     </summary>
@@ -40,10 +246,141 @@
   </entry>
   
   <entry>
+    <title>彻底理解javascript之 闭包</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/closure/"/>
+    <id>http://coolfireWang.github.io/2016/09/12/closure/</id>
+    <published>2016-09-12T06:15:03.681Z</published>
+    <updated>2016-09-12T06:32:32.937Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是闭包"><a href="#什么是闭包" class="headerlink" title="什么是闭包"></a>什么是闭包</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;什么是闭包&quot;&gt;&lt;a href=&quot;#什么是闭包&quot; class=&quot;headerlink&quot; title=&quot;什么是闭包&quot;&gt;&lt;/a&gt;什么是闭包&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>马哥专属</title>
+    <link href="http://coolfireWang.github.io/2016/09/07/test/"/>
+    <id>http://coolfireWang.github.io/2016/09/07/test/</id>
+    <published>2016-09-07T14:05:41.433Z</published>
+    <updated>2016-09-08T05:16:31.008Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一篇"><a href="#第一篇" class="headerlink" title="第一篇"></a>第一篇</h1> <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">马哥专属地盘，每日更新</div></pre></td></tr></table></figure>
+<ul>
+<li>You are the greatest refreshment in my life;<br><img src="/images/love0.jpg" alt="Alt text"></li>
+</ul>
+<hr>
+<ul>
+<li><p>No matter the ending is perfect or not, you cannot disappear from my world.<br><img src="/images/love1.jpg" alt="Alt text"></p>
+</li>
+<li><p>If equal affection cannot be, let the more loving be me.</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;第一篇&quot;&gt;&lt;a href=&quot;#第一篇&quot; class=&quot;headerlink&quot; title=&quot;第一篇&quot;&gt;&lt;/a&gt;第一篇&lt;/h1&gt; &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;d
+    
+    </summary>
+    
+      <category term="马哥专属" scheme="http://coolfireWang.github.io/categories/%E9%A9%AC%E5%93%A5%E4%B8%93%E5%B1%9E/"/>
+    
+    
+      <category term="马哥专属" scheme="http://coolfireWang.github.io/tags/%E9%A9%AC%E5%93%A5%E4%B8%93%E5%B1%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开篇</title>
+    <link href="http://coolfireWang.github.io/2016/08/24/why-do-it/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/why-do-it/</id>
+    <published>2016-08-24T15:10:42.941Z</published>
+    <updated>2016-08-09T15:59:16.183Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h1><p> 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想便一边学一边总结和实践。<br> 所谓万事开头难，今天就从这里开始</p>
+<h1 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h1><p> 写什么呢？作为一个coder 肯定是些技术相关的文章了，而作为一个Front-End<br> 当然是写一下javascipt ,html(5)，css(3)，浏览器存储，缓存，优化，ajax,mvc,mvvm各种库等相关的技术了，<br> 当然了我也会关注些full-stack,nodejs,React,angularjs,浏览器兼容技术，<br> 主流的UI ,架构解决方案等<br> 至于工具什么当然不能缺少了。。。。<br> 总之技术太多更新太快，万丈高楼平地起，当然是重最基础的开始了。<br> let’s do it!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;为什么写&quot;&gt;&lt;a href=&quot;#为什么写&quot; class=&quot;headerlink&quot; title=&quot;为什么写&quot;&gt;&lt;/a&gt;为什么写&lt;/h1&gt;&lt;p&gt; 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想
+    
+    </summary>
+    
+      <category term="札记" scheme="http://coolfireWang.github.io/categories/%E6%9C%AD%E8%AE%B0/"/>
+    
+    
+      <category term="杂谈" scheme="http://coolfireWang.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://coolfireWang.github.io/2016/08/24/hello-world/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/hello-world/</id>
+    <published>2016-08-24T15:10:42.932Z</published>
+    <updated>2016-07-24T14:02:09.125Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端工程师该具备怎样的技能呢</title>
+    <link href="http://coolfireWang.github.io/2016/08/24/front-end/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/front-end/</id>
+    <published>2016-08-24T15:10:42.929Z</published>
+    <updated>2016-09-07T15:29:20.576Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一个合格的前端工程师应该具备怎样的能力？"><a href="#一个合格的前端工程师应该具备怎样的能力？" class="headerlink" title="一个合格的前端工程师应该具备怎样的能力？"></a>一个合格的前端工程师应该具备怎样的能力？</h2><p> 首先你要知道什么是前端。<br> 前端工程师的英文名为front-end engineer，简称FE<br> 前端都干些什么呢？无非是三大块：html / css / js，但如果就这样，那前端也不过如此，<br> 现在意义上的前端（并非只制作网页）<br> 2011年之前，FE的工作基本都是由服务端工程师包办的，或者是由设计师来产出HTML页面。</p>
+<h3 id="用户体验的把控者"><a href="#用户体验的把控者" class="headerlink" title="用户体验的把控者"></a>用户体验的把控者</h3><p> 前端工程师的主要的工作就是开发用户界面，在web系统中，就是指网页了。为什么网页需要专门的FE来写呢？答案就是为了「用户体验」。<br> 从web2.0概念的普及到web3.0的提出，用户成为互联网的主要生产者，网页所承载的功能愈加丰富多样。<br> <br><br> 首先是企业的需求：如果你的网站、app等界面做的很丑的话，我相信大众是不能接受的开发者也作为第一个使用者估计都看不过去。<br> 其次是用户的需求：现在的用户也都很挑剔。毕竟他们使用的产品各个都要么炫酷要么清爽，都被惯坏了，你的产品稍有点不爽的地方，“影响我心情不爽给你个差评”，要么就直接卸载这样你的用户就这么流失了，你的产品的价值就没了。<br> 想做出漂亮的界面你必须熟练布局 html css （h5 、css3），主流的布局风格，UI框架,响应式，浏览器兼容等<br> 随着HTML5的支持度越来越高，前端拥有的能力也会越强。比如利用canvas能够获取到图片上的每一个像素点，这样前端就拥有了图像处理能力。有了FileReader API，前端拥有了本地文件的读取能力，本地数据库，还有地理位置获取等等</p>
+<h3 id="用户习惯的引导者"><a href="#用户习惯的引导者" class="headerlink" title="用户习惯的引导者"></a>用户习惯的引导者</h3><p> 用户界面的设计，操作方式，交互习惯等都由你的逻辑代码来控制，所以作为FE你不仅要写出漂亮的界面，还要编写程序去处理控制业务逻辑<br> 以前呢，用户端就是个IE浏览器，没有什么业务逻辑可言。但现在不同了，用户使用浏览器发表文章、进行社交活动，更复杂的能使用在线工具完成工作等。<br> javascript就是FE需要掌握的编程语言，他应该通晓这门语言的优势和缺点，掌握各种编程思想、开发模式。利用各种技巧实现交互越来越丰富的界面，<br> 同时还要与服务端的工程师沟通，调试接口，完成：页面展示——响应用户操作——提交用户数据——反馈操作结果这一系列流程</p>
+<h4 id="有图有真相先看一张技能图"><a href="#有图有真相先看一张技能图" class="headerlink" title="有图有真相先看一张技能图"></a>有图有真相先看一张技能图</h4><p><img src="/images/fetecnl.jpg" alt="Alt text" title="Optional title"></p>
+<p><strong>以上属于个人观点和看法</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;a href=&quot;#一个合格的前端工程师应该具备怎样的能力？&quot; class=&quot;headerlink&quot; title=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;/a&gt;一个合格的前端工程师应该具备怎样的能力？&lt;/h2&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="http://coolfireWang.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>彻底理解javascript之数据类型</title>
-    <link href="http://coolfireWang.github.io/2016/08/10/datatype/"/>
-    <id>http://coolfireWang.github.io/2016/08/10/datatype/</id>
-    <published>2016-08-10T03:30:59.863Z</published>
+    <link href="http://coolfireWang.github.io/2016/08/24/datatype/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/datatype/</id>
+    <published>2016-08-24T15:10:42.927Z</published>
     <updated>2016-08-10T12:10:44.387Z</updated>
     
     <content type="html"><![CDATA[<h1 id="javascript-数据类型"><a href="#javascript-数据类型" class="headerlink" title="javascript 数据类型"></a>javascript 数据类型</h1><blockquote>
@@ -80,78 +417,48 @@
   </entry>
   
   <entry>
-    <title>前端工程师该具备怎样的技能呢</title>
-    <link href="http://coolfireWang.github.io/2016/08/09/front-end/"/>
-    <id>http://coolfireWang.github.io/2016/08/09/front-end/</id>
-    <published>2016-08-09T14:00:43.754Z</published>
-    <updated>2016-08-10T03:20:30.007Z</updated>
+    <title>彻底理解javascript 之==和===</title>
+    <link href="http://coolfireWang.github.io/2016/08/24/dataComp/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/dataComp/</id>
+    <published>2016-08-24T15:10:42.925Z</published>
+    <updated>2016-09-07T15:00:51.711Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一个合格的前端工程师应该具备怎样的能力？"><a href="#一个合格的前端工程师应该具备怎样的能力？" class="headerlink" title="一个合格的前端工程师应该具备怎样的能力？"></a>一个合格的前端工程师应该具备怎样的能力？</h2><p> 首先你要知道什么是前端。<br> 前端工程师的英文名为front-end engineer，简称FE<br> 前端都干些什么呢？无非是三大块：html / css / js，但如果就这样，那前端也不过如此，<br> 现在意义上的前端（并非只制作网页）<br> 2011年之前，FE的工作基本都是由服务端工程师包办的，或者是由设计师来产出HTML页面。</p>
-<h3 id="用户体验的把控者"><a href="#用户体验的把控者" class="headerlink" title="用户体验的把控者"></a>用户体验的把控者</h3><p> 前端工程师的主要的工作就是开发用户界面，在web系统中，就是指网页了。为什么网页需要专门的FE来写呢？答案就是为了「用户体验」。<br> 从web2.0概念的普及到web3.0的提出，用户成为互联网的主要生产者，网页所承载的功能愈加丰富多样。<br> <br><br> 首先是企业的需求：如果你的网站、app等界面做的很丑的话，我相信大众是不能接受的开发者也作为第一个使用者估计都看不过去。<br> 其次是用户的需求：现在的用户也都很挑剔。毕竟他们使用的产品各个都要么炫酷要么清爽，都被惯坏了，你的产品稍有点不爽的地方，“影响我心情不爽给你个差评”，要么就直接卸载这样你的用户就这么流失了，你的产品的价值就没了。<br> 想做出漂亮的界面你必须熟练布局 html css （h5 、css3），主流的布局风格，UI框架,响应式，浏览器兼容等<br> 随着HTML5的支持度越来越高，前端拥有的能力也会越强。比如利用canvas能够获取到图片上的每一个像素点，这样前端就拥有了图像处理能力。有了FileReader API，前端拥有了本地文件的读取能力，本地数据库，还有地理位置获取等等</p>
-<h3 id="用户习惯的引导者"><a href="#用户习惯的引导者" class="headerlink" title="用户习惯的引导者"></a>用户习惯的引导者</h3><p> 用户界面的设计，操作方式，交互习惯等都由你的逻辑代码来控制，所以作为FE你不仅要写出漂亮的界面，还要编写程序去处理控制业务逻辑<br> 以前呢，用户端就是个IE浏览器，没有什么业务逻辑可言。但现在不同了，用户使用浏览器发表文章、进行社交活动，更复杂的能使用在线工具完成工作等。<br> javascript就是FE需要掌握的编程语言，他应该通晓这门语言的优势和缺点，掌握各种编程思想、开发模式。利用各种技巧实现交互越来越丰富的界面，<br> 同时还要与服务端的工程师沟通，调试接口，完成：页面展示——响应用户操作——提交用户数据——反馈操作结果这一系列流程</p>
-<h4 id="有图有真相先看一张技能图"><a href="#有图有真相先看一张技能图" class="headerlink" title="有图有真相先看一张技能图"></a>有图有真相先看一张技能图</h4><p><img src="/images/fetecnl.jpg" alt="Alt text" title="Optional title"></p>
-<p><strong>以上属于个人观点和看法</strong></p>
+    <content type="html"><![CDATA[<p>#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;a href=&quot;#一个合格的前端工程师应该具备怎样的能力？&quot; class=&quot;headerlink&quot; title=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;/a&gt;一个合格的前端工程师应该具备怎样的能力？&lt;/h2&gt;&lt;
+      &lt;p&gt;#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：&lt;/p&gt;
+
     
     </summary>
     
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
     
-      <category term="随想" scheme="http://coolfireWang.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
   </entry>
   
   <entry>
-    <title>开篇</title>
-    <link href="http://coolfireWang.github.io/2016/08/06/why-do-it/"/>
-    <id>http://coolfireWang.github.io/2016/08/06/why-do-it/</id>
-    <published>2016-08-06T05:01:51.143Z</published>
-    <updated>2016-08-09T15:59:16.183Z</updated>
+    <title>彻底理解javascript之数组和对象</title>
+    <link href="http://coolfireWang.github.io/2016/08/24/arrayObj/"/>
+    <id>http://coolfireWang.github.io/2016/08/24/arrayObj/</id>
+    <published>2016-08-24T15:10:42.922Z</published>
+    <updated>2016-09-07T15:28:09.385Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="为什么写"><a href="#为什么写" class="headerlink" title="为什么写"></a>为什么写</h1><p> 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想便一边学一边总结和实践。<br> 所谓万事开头难，今天就从这里开始</p>
-<h1 id="写什么"><a href="#写什么" class="headerlink" title="写什么"></a>写什么</h1><p> 写什么呢？作为一个coder 肯定是些技术相关的文章了，而作为一个Front-End<br> 当然是写一下javascipt ,html(5)，css(3)，浏览器存储，缓存，优化，ajax,mvc,mvvm各种库等相关的技术了，<br> 当然了我也会关注些full-stack,nodejs,React,angularjs,浏览器兼容技术，<br> 主流的UI ,架构解决方案等<br> 至于工具什么当然不能缺少了。。。。<br> 总之技术太多更新太快，万丈高楼平地起，当然是重最基础的开始了。<br> let’s do it!</p>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;为什么写&quot;&gt;&lt;a href=&quot;#为什么写&quot; class=&quot;headerlink&quot; title=&quot;为什么写&quot;&gt;&lt;/a&gt;为什么写&lt;/h1&gt;&lt;p&gt; 其实有写博客的想法已经很久很久了，可是我这人有拖延症，搭了很多次博客都没写过，博客园，csdn,oschina…等，一直想
+      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
     
     </summary>
     
-      <category term="札记" scheme="http://coolfireWang.github.io/categories/%E6%9C%AD%E8%AE%B0/"/>
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
     
     
-      <category term="杂谈" scheme="http://coolfireWang.github.io/tags/%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://coolfireWang.github.io/2016/07/24/hello-world/"/>
-    <id>http://coolfireWang.github.io/2016/07/24/hello-world/</id>
-    <published>2016-07-24T14:02:09.091Z</published>
-    <updated>2016-07-24T14:02:09.125Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
   </entry>
   
