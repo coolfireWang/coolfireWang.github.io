@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Demain's Page">
 <meta property="og:description" content="javascript 数据类型
  ECMA-262 这么定义的   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language typ">
-<meta property="og:updated_time" content="2016-09-14T02:09:33.345Z">
+<meta property="og:updated_time" content="2016-09-14T04:51:34.066Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="彻底理解javascript之数据类型">
 <meta name="twitter:description" content="javascript 数据类型
@@ -408,7 +408,21 @@
 </ul>
 <hr>
 <blockquote>
-<p>symbol 在 Firefox 36 和 Chrome 38 中均已被实现，为了支持那些尚未支持原生 ES6 symbol 的浏览器，你可以使用一个 polyfill，例如 core.js。因为 symbol 与其它类型不尽相同，所以 polyfill 目前不是很完美，请阅读注意事项。</p>
+<p>symbol 在 Firefox 36 和 Chrome 38 中均已被实现，为了支持那些尚未支持原生 ES6 symbol 的浏览器，你可以使用一个 polyfill，例如 core.js。因为 symbol 与其它类型不尽相同，所以 polyfill 目前不是很完美，请阅读<a href="https://github.com/zloirock/core-js#caveats-when-using-symbol-polyfill" target="_blank" rel="external">注意事项</a>。</p>
+</blockquote>
+<h2 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h2><pre><code>因为js 是弱类型语言 
+</code></pre><ul>
+<li><p>JS中变量申明分显式申明和隐式申明。</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">var i=<span class="number">100</span>;<span class="comment">//显式申明</span></div><div class="line">　　i=<span class="number">100</span>;<span class="comment">//隐式申明</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>ES6块级作用域及新变量声明（let）</p>
+<blockquote>
+<p>很多语言中都有块级作用域，但JS没有，它使用var声明变量，以function来划分作用域，大括号“{}” 却限定不了var的作用域。用var声明的变量具有变量提升（declaration hoisting）的效果。</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>ES6里增加了一个let，可以在{}， if， for里声明。用法同var，但作用域限定在块级，let声明的变量不存在变量提升。</p>
 </blockquote>
 
       
@@ -611,7 +625,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><span class="nav-number">1.0.1.</span> <span class="nav-text">既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Example"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">Example</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第七种数据类型–符号-Symbols"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">第七种数据类型–符号(Symbols)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取Symbol的三种方式"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">获取Symbol的三种方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#symbol-在-ES6-规范中的应用"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">symbol 在 ES6 规范中的应用</span></a></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><span class="nav-number">1.0.1.</span> <span class="nav-text">既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Example"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">Example</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第七种数据类型–符号-Symbols"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">第七种数据类型–符号(Symbols)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取Symbol的三种方式"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">获取Symbol的三种方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#symbol-在-ES6-规范中的应用"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">symbol 在 ES6 规范中的应用</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量声明"><span class="nav-number">1.1.</span> <span class="nav-text">变量声明</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

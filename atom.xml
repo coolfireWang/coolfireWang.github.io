@@ -381,7 +381,7 @@
     <link href="http://coolfireWang.github.io/2016-08-24-datatype.html"/>
     <id>http://coolfireWang.github.io/2016-08-24-datatype.html</id>
     <published>2016-08-24T15:10:42.927Z</published>
-    <updated>2016-09-14T02:09:33.345Z</updated>
+    <updated>2016-09-14T04:51:34.066Z</updated>
     
     <content type="html"><![CDATA[<h1 id="javascript-数据类型"><a href="#javascript-数据类型" class="headerlink" title="javascript 数据类型"></a>javascript 数据类型</h1><blockquote>
 <p> <strong>ECMA-262 这么定义的</strong><br>   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language types are <strong>Undefined</strong>, <strong>Null</strong>,<strong> Boolean</strong>, <strong>String</strong>, <strong>Number</strong>, and <strong>Object</strong>.<br><br><br>ECMAScript 中有5种简单的数据类型行（也称基本数据类型）Undefined 、Null、Boolean、Number和String ,还有一种复杂的数据类型–Object,<br>  Object本质上市由一组无序的键值对组成的，ECMAScript 不支持任何创建之定义类型的机制，所有的值都将是上述的6种类型之一。你会觉得好像6中数据类型不足以表示所有数据。其实不然，由于ECMAScrip是弱类型语言 数据类型具有动态性，所以就没有定义其他类型的必要了。</p>
@@ -433,7 +433,21 @@
 </ul>
 <hr>
 <blockquote>
-<p>symbol 在 Firefox 36 和 Chrome 38 中均已被实现，为了支持那些尚未支持原生 ES6 symbol 的浏览器，你可以使用一个 polyfill，例如 core.js。因为 symbol 与其它类型不尽相同，所以 polyfill 目前不是很完美，请阅读注意事项。</p>
+<p>symbol 在 Firefox 36 和 Chrome 38 中均已被实现，为了支持那些尚未支持原生 ES6 symbol 的浏览器，你可以使用一个 polyfill，例如 core.js。因为 symbol 与其它类型不尽相同，所以 polyfill 目前不是很完美，请阅读<a href="https://github.com/zloirock/core-js#caveats-when-using-symbol-polyfill" target="_blank" rel="external">注意事项</a>。</p>
+</blockquote>
+<h2 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h2><pre><code>因为js 是弱类型语言 
+</code></pre><ul>
+<li><p>JS中变量申明分显式申明和隐式申明。</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">var i=<span class="number">100</span>;<span class="comment">//显式申明</span></div><div class="line">　　i=<span class="number">100</span>;<span class="comment">//隐式申明</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>ES6块级作用域及新变量声明（let）</p>
+<blockquote>
+<p>很多语言中都有块级作用域，但JS没有，它使用var声明变量，以function来划分作用域，大括号“{}” 却限定不了var的作用域。用var声明的变量具有变量提升（declaration hoisting）的效果。</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>ES6里增加了一个let，可以在{}， if， for里声明。用法同var，但作用域限定在块级，let声明的变量不存在变量提升。</p>
 </blockquote>
 ]]></content>
     
