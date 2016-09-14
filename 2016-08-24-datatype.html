@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Demain's Page">
 <meta property="og:description" content="javascript 数据类型
  ECMA-262 这么定义的   An ECMAScript language type corresponds to values that are directly manipulated by an ECMAScript programmer using the ECMAScript language. The ECMAScript language typ">
-<meta property="og:updated_time" content="2016-08-10T12:10:44.387Z">
+<meta property="og:updated_time" content="2016-09-14T02:09:33.345Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="彻底理解javascript之数据类型">
 <meta name="twitter:description" content="javascript 数据类型
@@ -375,6 +375,41 @@
 <li>注 typeof 是操作符 不是函数尽管带（）可以使用 但不是必须的也不推荐这么用</li>
 <li>虽然function 在ECMAScript中是对象 不是一种数据类型但函数也有一些特殊的属性，因此通过typeof 操作符来区分函数和其他对象是有必要的</li>
 </ul>
+<h4 id="第七种数据类型–符号-Symbols"><a href="#第七种数据类型–符号-Symbols" class="headerlink" title="第七种数据类型–符号(Symbols)"></a>第七种数据类型–符号(Symbols)</h4><blockquote>
+<p>自1997年 JavaScript 发明以来，一直只有六种数据类型，在 ES6 中，出现了第七种数据类型：符号(Symbols)。<br>参考博文：<a href="https://hacks.mozilla.org/2015/06/es6-in-depth-symbols/" target="_blank" rel="external">ES6 In Depth:SymbolsMDN</a>：<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol" target="_blank" rel="external">Symbol</a>。<br>symbol是程序创建并且可以用作属性键的值，并且它能避免命名冲突的风险。<br><figure class="highlight dart"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> mySymbol = <span class="built_in">Symbol</span>();</div></pre></td></tr></table></figure></p>
+</blockquote>
+<ul>
+<li>调用Symbol()创建一个新的 symbol，它的值与其它任何值皆不相等。</li>
+<li>字符串或数字可以作为属性的键，symbol 也可以，它不等同于任何字符串，因而这个以 symbol 为键的属性可以保证不与任何其它属性产生冲突。<figure class="highlight gcode"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">var sy<span class="name">m1</span> = Symbol<span class="comment">("foo")</span>;</div><div class="line">var sy<span class="name">m2</span> = Symbol<span class="comment">("foo")</span>;</div><div class="line">sy<span class="name">m1</span> === sy<span class="name">m2</span>; <span class="comment">// false</span></div><div class="line">var obj=&#123;&#125;;</div><div class="line"><span class="comment">//绝对不会冲突</span></div><div class="line">obj[sy<span class="name">m1</span>]=<span class="string">"sym1"</span>;</div><div class="line">obj[sy<span class="name">m2</span>]=<span class="string">"sym2"</span>;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li>到底什么是symbol？<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">typeof</span> <span class="built_in">Symbol</span>() === <span class="string">"symbol"</span></div><div class="line"><span class="keyword">typeof</span> <span class="built_in">Symbol</span>(<span class="string">'foo'</span>) === <span class="string">"symbol"</span></div><div class="line"><span class="keyword">typeof</span> <span class="built_in">Symbol</span>.iterator === <span class="string">"symbol"</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>确切地说，symbol 与其它类型并不完全相像。</p>
+<p>symbol 被创建后就不可变更，你不能为它设置属性（在严格模式下尝试设置属性会得到 TypeError 的错误）。他们可以用作属性名称，这些性质与字符串类似。</p>
+<p>另一方面，每一个 symbol 都独一无二，不与其它 symbol 等同，即使二者有相同的描述也不相等；你可以轻松地创建一个新的 symbol。这些性质与对象类似。</p>
+<p>ES6 中的 symbol 与 Lisp 和 Ruby 这些语言中更传统的 symbol 类似，但不像它们集成得那么紧密。在 Lisp 中，所有的标识符都是 symbol；在 JavaScript 中，标识符和大多数的属性键仍然是字符串，symbol 只是一个额外的选项。</p>
+<p>关于 symbol 的忠告：symbol 不能被自动转换为字符串，这和语言中的其它类型不同。尝试拼接 symbol 与字符串将得到 TypeError 错误。<br><figure class="highlight maxima"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">var</span> sym = Symbol(<span class="string">"&amp;lt;3"</span>);</div><div class="line"><span class="string">"your symbol is "</span> + sym</div><div class="line">// TypeError: can't <span class="built_in">convert</span> symbol to <span class="built_in">string</span></div><div class="line">your symbol <span class="built_in">is</span> $&#123;sym&#125;</div><div class="line">// TypeError: can't <span class="built_in">convert</span> symbol to <span class="built_in">string</span></div></pre></td></tr></table></figure></p>
+<p>通过String(sym)或sym.toString()可以显示地将symbol转换为一个字符串，从而回避这个问题。</p>
+</blockquote>
+<h4 id="获取Symbol的三种方式"><a href="#获取Symbol的三种方式" class="headerlink" title="获取Symbol的三种方式"></a>获取Symbol的三种方式</h4><ul>
+<li>调用Symbol()。正如我们上文中所讨论的，这种方式每次调用都会返回一个新的唯一symbol。</li>
+<li>调用Symbol.for(string)。这种方式会访问 symbol 注册表，其中存储了已经存在的一系列 symbol。这种方式与通过Symbol()定义的独立 symbol 不同，symbol 注册表中的 symbol 是共享的。如果你连续三十次调用Symbol.for(“cat”)，每次都会返回相同的 symbol。注册表非常有用，在多个 web 页面或同一个 web 页面的多个模块中经常需要共享一个 symbol。</li>
+<li><p>使用标准定义的 symbol，例如：Symbol.iterator。标准根据一些特殊用途定义了少许的几个 symbol。</p>
+<h4 id="symbol-在-ES6-规范中的应用"><a href="#symbol-在-ES6-规范中的应用" class="headerlink" title="symbol 在 ES6 规范中的应用"></a>symbol 在 ES6 规范中的应用</h4><p>ES6 中还有其它几处使用了symbol 的地方。（这些特性在Firefox里尚未实现。）</p>
+</li>
+<li><p>使instanceof可扩展。在 ES6 中，表达式object instanceof constructor被指定为构造函数的一个方法：constructor<a href="object">Symbol.hasInstance</a>。这意味着它是可扩展的。</p>
+</li>
+<li>消除新特性和旧代码之间的冲突。这一点非常复杂，但是我们发现，添加某些 ES6数组方法会破坏现有的Web网站。其它 Web 标准有相同的问题：向浏览器中添加新方法会破坏原有的网站。然而，破坏问题主要由动态作用域引起，所以 ES6 引入一个特殊的symbol——Symbol.unscopables，Web 标准可以用这个 symbol 来阻止某些方法别加入到动态作用域中。</li>
+<li>支持新的字符串匹配类型。在 ES5 中，str.match(myObject)会尝试将myObject转换为正则表达式对象（RegExp）。在 ES6 中，它会首先检查myObject是否有一个myObject<a href="str">Symbol.match</a>方法。现在的库可以提供自定义的字符串解析类，所有支持RegExp</li>
+</ul>
+<hr>
+<blockquote>
+<p>symbol 在 Firefox 36 和 Chrome 38 中均已被实现，为了支持那些尚未支持原生 ES6 symbol 的浏览器，你可以使用一个 polyfill，例如 core.js。因为 symbol 与其它类型不尽相同，所以 polyfill 目前不是很完美，请阅读注意事项。</p>
+</blockquote>
 
       
     </div>
@@ -576,7 +611,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><span class="nav-number">1.0.1.</span> <span class="nav-text">既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Example"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">Example</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#javascript-数据类型"><span class="nav-number">1.</span> <span class="nav-text">javascript 数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢"><span class="nav-number">1.0.1.</span> <span class="nav-text">既然是弱类型语言，数据类型是动态变化的，那么应该怎样判断当前数据的类型呢?</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Example"><span class="nav-number">1.0.1.0.1.</span> <span class="nav-text">Example</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第七种数据类型–符号-Symbols"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">第七种数据类型–符号(Symbols)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#获取Symbol的三种方式"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">获取Symbol的三种方式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#symbol-在-ES6-规范中的应用"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">symbol 在 ES6 规范中的应用</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>
