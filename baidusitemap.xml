@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://coolfireWang.github.io/2016-09-12-learnJs/cross-domain.html</loc>
+    <lastmod>2016-09-15T13:13:24.285Z</lastmod>
+    <data>
+        <display>
+        <title>彻底理解javascript之 跨域</title>
+        <pubTime>2016-09-12T06:55:21.410Z</pubTime>
+        
+        <tag>javascript</tag>
+         
+        <tag>跨域</tag>
+         
+         
+           
+             
+              <breadCrumb title="彻底理解javascript系列" url="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://coolfireWang.github.io/2016-08-24-others/hello-world.html</loc>
     <lastmod>2016-09-15T12:25:00.296Z</lastmod>
     <data>
@@ -164,28 +186,6 @@
         <tag>javascript</tag>
          
         <tag>函数回调</tag>
-         
-         
-           
-             
-              <breadCrumb title="彻底理解javascript系列" url="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://coolfireWang.github.io/2016-09-12-learnJs/cross-domain.html</loc>
-    <lastmod>2016-09-12T07:01:21.093Z</lastmod>
-    <data>
-        <display>
-        <title>彻底理解javascript之 跨域</title>
-        <pubTime>2016-09-12T06:55:21.410Z</pubTime>
-        
-        <tag>javascript</tag>
-         
-        <tag>跨域</tag>
          
          
            

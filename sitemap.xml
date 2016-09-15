@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/2016-09-12-learnJs/cross-domain.html</loc>
+    
+    <lastmod>2016-09-15T13:13:24.285Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/2016-08-24-others/hello-world.html</loc>
     
     <lastmod>2016-09-15T12:25:00.296Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>http://coolfireWang.github.io/2016-09-12-learnJs/callbcak.html</loc>
     
     <lastmod>2016-09-12T07:01:21.123Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/2016-09-12-learnJs/cross-domain.html</loc>
-    
-    <lastmod>2016-09-12T07:01:21.093Z</lastmod>
     
   </url>
   
