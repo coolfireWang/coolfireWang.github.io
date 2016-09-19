@@ -86,16 +86,25 @@
 
 
 
-<meta name="description" content="#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：">
+<meta name="description" content="之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：#####JavaScript 提供三种不同的比较操作符：
+
+ 严格相等，使用 ===  （非严格）相等，使用 ==  以及 Object.is （ECMAScript 6 新特性）  ES2015标准提供以下四种比较操作符：
+（非严格）相等 (==)  严格相等 (===): 用于Array.prototype">
 <meta property="og:type" content="article">
 <meta property="og:title" content="彻底理解javascript 之==和===">
 <meta property="og:url" content="http://coolfireWang.github.io/2016-08-24-learnJs/dataComp.html">
 <meta property="og:site_name" content="Demain's Page">
-<meta property="og:description" content="#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：">
-<meta property="og:updated_time" content="2016-09-07T15:00:51.711Z">
+<meta property="og:description" content="之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：#####JavaScript 提供三种不同的比较操作符：
+
+ 严格相等，使用 ===  （非严格）相等，使用 ==  以及 Object.is （ECMAScript 6 新特性）  ES2015标准提供以下四种比较操作符：
+（非严格）相等 (==)  严格相等 (===): 用于Array.prototype">
+<meta property="og:updated_time" content="2016-09-19T02:31:32.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="彻底理解javascript 之==和===">
-<meta name="twitter:description" content="#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：">
+<meta name="twitter:description" content="之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：#####JavaScript 提供三种不同的比较操作符：
+
+ 严格相等，使用 ===  （非严格）相等，使用 ==  以及 Object.is （ECMAScript 6 新特性）  ES2015标准提供以下四种比较操作符：
+（非严格）相等 (==)  严格相等 (===): 用于Array.prototype">
 
 
 
@@ -355,7 +364,41 @@
       
 
       
-        <p>#####之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</p>
+        <h5 id="之前详细阐述了数据类型-现在我们来说一说数据比较中比较容易忽视的-和-的区别："><a href="#之前详细阐述了数据类型-现在我们来说一说数据比较中比较容易忽视的-和-的区别：" class="headerlink" title="之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别："></a>之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</h5><p>#####JavaScript 提供三种不同的比较操作符：</p>
+<blockquote>
+<p> 严格相等，使用 ===<br>  （非严格）相等，使用 ==<br>  以及 Object.is （ECMAScript 6 新特性）<br>  ES2015标准提供以下四种比较操作符：</p>
+<p>（非严格）相等 (==)<br>  严格相等 (===): 用于Array.prototype.indexOf, Array.prototype.lastIndexOf, 以及 case语句的匹配操作<br>  零值相等: 用于TypedArray和ArrayBuffer的构造、Map和Set操作, 并将用于ES2016标准中的String.prototype.includes<br>  同值相等: 用于所有其他场景</p>
+</blockquote>
+<ul>
+<li>== (equality) 等同，=== (identity )恒等</li>
+<li>==， 两边值类型不同的时候，要先进行类型转换，再比较。</li>
+<li>===，不做类型转换，类型不同的一定不等。</li>
+<li>==和===返回的是一个布尔值（true | false）<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">var str=<span class="string">"123"</span>;</div><div class="line">var num=123;</div><div class="line">console.log(str==num);//<span class="literal">true</span></div><div class="line">console.log(str===num);//<span class="literal">false</span></div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>有一个特殊的值，它连自己都不等于自己，console.log(NaN===NaN)不管是==还是===，返回的都是false</p>
+</blockquote>
+<h5 id="详解"><a href="#详解" class="headerlink" title="==详解"></a>==详解</h5><ul>
+<li>== 在判断的时候对数值做了 “隐式转换”, 比如 0 ==false ,1 ==true</li>
+</ul>
+<ul>
+<li>如果两个值类型相同，进行 === 比较。 </li>
+<li>如果两个值类型不同，他们可能相等。根据下面规则进行类型转换再比较： </li>
+<li>如果一个是null、一个是undefined，那么[相等]。 </li>
+<li>如果一个是字符串，一个是数值，把字符串转换成数值再进行比较。 </li>
+<li>如果任一值是 true，把它转换成 1 再比较；如果任一值是 false，把它转换成 0 再比较。 </li>
+<li>如果一个是对象，另一个是数值或字符串，把对象转换成基础类型的值再比较。对象转换成基础类型，利用它的toString或者valueOf方法。 js核心内置类，会尝试valueOf先于toString；例外的是Date，Date利用的是toString转换。非js核心的对象，令说（比较麻 烦，我也不大懂） </li>
+<li>任何其他组合，都[不相等]。 </li>
+</ul>
+<h5 id="详解-1"><a href="#详解-1" class="headerlink" title="===详解"></a>===详解</h5><ul>
+<li>如果类型不同，就[不相等] </li>
+<li>如果两个都是数值，并且是同一个值，那么[相等]；(！例外)的是，如果其中至少一个是NaN，那么[不相等]。（判断一个值是否是NaN，只能用isNaN()来判断） </li>
+<li>如果两个都是字符串，每个位置的字符都一样，那么[相等]；否则[不相等]。 </li>
+<li>如果两个值都是true，或者都是false，那么[相等]。 </li>
+<li>如果两个值都引用同一个对象或函数，那么[相等]；否则[不相等]。 </li>
+<li>如果两个值都是null，或者都是undefined，那么[相等]。 </li>
+</ul>
 
       
     </div>
@@ -557,7 +600,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#之前详细阐述了数据类型-现在我们来说一说数据比较中比较容易忽视的-和-的区别："><span class="nav-number">1.</span> <span class="nav-text">之前详细阐述了数据类型 现在我们来说一说数据比较中比较容易忽视的== 和===的区别：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#详解"><span class="nav-number">2.</span> <span class="nav-text">==详解</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#详解-1"><span class="nav-number">3.</span> <span class="nav-text">===详解</span></a></li></ol></div>
             
           </div>
         </section>

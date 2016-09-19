@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/2016-08-24-learnJs/dataComp.html</loc>
+    
+    <lastmod>2016-09-19T02:31:32.150Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/2016-09-12-learnJs/cross-domain.html</loc>
     
-    <lastmod>2016-09-15T13:13:24.285Z</lastmod>
+    <lastmod>2016-09-17T04:41:38.218Z</lastmod>
     
   </url>
   
@@ -145,13 +152,6 @@
     <loc>http://coolfireWang.github.io/2016-08-24-learnJs/arrayObj.html</loc>
     
     <lastmod>2016-09-07T15:28:09.385Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/2016-08-24-learnJs/dataComp.html</loc>
-    
-    <lastmod>2016-09-07T15:00:51.711Z</lastmod>
     
   </url>
   
