@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/11/17/learnJs/arrayObj.html</loc>
+    <loc>http://coolfireWang.github.io/2016/11/17/rem.html</loc>
+    
+    <lastmod>2016-11-17T06:43:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://coolfireWang.github.io/2016/11/17/arrayObj.html</loc>
     
     <lastmod>2016-11-17T01:40:05.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/11/17/learnJs/cross-domain.html</loc>
+    <loc>http://coolfireWang.github.io/2016/11/17/cross-domain.html</loc>
     
     <lastmod>2016-11-17T01:40:05.000Z</lastmod>
     
@@ -23,23 +30,16 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/11/07/learnVue/aboutVue.html</loc>
+    <loc>http://coolfireWang.github.io/2016/11/07/aboutVue.html</loc>
     
     <lastmod>2016-11-07T02:41:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/10/25/learnJs/actionScope.html</loc>
+    <loc>http://coolfireWang.github.io/2016/10/25/actionScope.html</loc>
     
     <lastmod>2016-10-25T12:40:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/2016/10/25/learnCss3/rem.html</loc>
-    
-    <lastmod>2016-10-25T12:28:58.000Z</lastmod>
     
   </url>
   
@@ -51,42 +51,42 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/20/learnNode/helloNode.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/20/helloNode.html</loc>
     
     <lastmod>2016-09-20T02:19:08.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/19/learnJs/dataComp.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/19/dataComp.html</loc>
     
     <lastmod>2016-09-19T03:09:56.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/15/others/hello-world.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/15/hello-world.html</loc>
     
     <lastmod>2016-09-15T12:25:02.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/14/learnJs/datatype.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/14/datatype.html</loc>
     
     <lastmod>2016-09-14T04:54:56.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/regex.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/regex.html</loc>
     
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/timer.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/timer.html</loc>
     
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     
@@ -100,28 +100,28 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/callbcak.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/gc.html</loc>
     
     <lastmod>2016-09-12T07:01:22.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/gc.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/designPattern.html</loc>
     
     <lastmod>2016-09-12T07:01:22.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/designPattern.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/callbcak.html</loc>
     
     <lastmod>2016-09-12T07:01:22.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/eventsLoop.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/eventsLoop.html</loc>
     
     <lastmod>2016-09-12T06:47:28.000Z</lastmod>
     
@@ -135,35 +135,35 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/syncAndAsync.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/syncAndAsync.html</loc>
     
     <lastmod>2016-09-12T06:42:14.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/extend.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/extend.html</loc>
     
     <lastmod>2016-09-12T06:32:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/learnJs/closure.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/closure.html</loc>
     
     <lastmod>2016-09-12T06:32:34.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/08/others/test.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/08/test.html</loc>
     
     <lastmod>2016-09-08T05:16:32.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/07/others/front-end.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/07/front-end.html</loc>
     
     <lastmod>2016-09-07T15:29:22.000Z</lastmod>
     
@@ -177,7 +177,7 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/08/09/others/why-do-it.html</loc>
+    <loc>http://coolfireWang.github.io/2016/08/09/why-do-it.html</loc>
     
     <lastmod>2016-08-09T15:59:18.000Z</lastmod>
     
