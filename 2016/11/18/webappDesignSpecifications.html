@@ -107,7 +107,7 @@
 
 开发尺寸问题：对于全平台的APP设计，我们通常以Andro">
 <meta property="og:image" content="http://www.25xt.com/wp-content/uploads/2015/03/webAPP-前端性能优化规范.png">
-<meta property="og:updated_time" content="2016-11-18T07:11:37.000Z">
+<meta property="og:updated_time" content="2016-11-18T07:14:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="webapp设计规范">
 <meta name="twitter:description" content="webapp 规范
@@ -319,7 +319,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-11-18T15:11:37+08:00" content="2016-11-18">
+            <time itemprop="dateCreated" datetime="2016-11-18T15:14:05+08:00" content="2016-11-18">
               2016-11-18
             </time>
           </span>
@@ -397,13 +397,10 @@
 <blockquote>
 <p> 这也就是为什么不能直接拿720<em>1280px作为开发尺寸的原因！因为我们的720x1280是物理像素，而web app使用的是逻辑像素；<br>   因此，我们的设计尺寸720</em>1280px对应到开发中的代码尺寸应该为340<em>640px,对应的iPhone6（750</em>1334）的开发尺寸为375<em>667px,iPhone6p(1080</em>1920px)……</p>
 </blockquote>
-<ul>
-<li>字体设置<blockquote>
-<p>使用无衬线字体</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">font-family</span>: <span class="string">"Helvetica Neue"</span>, Helvetica, STHeiTi, sans-serif;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</blockquote>
-</li>
+<h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
+<li>使用无衬线字体</li>
 </ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">font-family</span>: <span class="string">"Helvetica Neue"</span>, Helvetica, STHeiTi, sans-serif;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <blockquote>
 <p>iOS 4.0+ 使用英文字体 Helvetica Neue，之前的iOS版本降级使用 Helvetica。中文字体设置为华文黑体STHeiTi。 需补充说明，华文黑体并不存在iOS的字体库中(<a href="http://support.apple.com/kb/HT5878)，" target="_blank" rel="external">http://support.apple.com/kb/HT5878)，</a> 但系统会自动将华文黑体 STHeiTi 兼容命中系统默认中文字体黑体-简或黑体-繁。<br>    Heiti SC Light 黑体-简 细体 （iOS 7后废弃）<br>    Heiti SC Medium 黑体-简 中黑<br>    Heiti TC Light 黑体-繁 细体<br>    Heiti TC Medium 黑体-繁 中黑<br>    原生Android下中文字体与英文字体都选择默认的无衬线字体。<br>    4.0 之前版本英文字体原生 Android 使用的是 Droid Sans，中文字体原生 Android 会命中 Droid Sans Fallback<br>    4.0 之后中英文字体都会使用原生 Android 新的 Roboto 字体<br>    其他第三方 Android 系统也一致选择默认的无衬线字体。</p>
 </blockquote>
@@ -441,17 +438,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/11/17/rem.html" rel="next" title="rem 自适应方案">
-                <i class="fa fa-chevron-left"></i> rem 自适应方案
+              <a href="/2016/11/18/webappReView.html" rel="next" title="webapp重构日志">
+                <i class="fa fa-chevron-left"></i> webapp重构日志
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/11/18/webappReView.html" rel="prev" title="webapp重构日志">
-                webapp重构日志 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -611,7 +604,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#webapp-规范"><span class="nav-number">1.</span> <span class="nav-text">webapp 规范</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#webapp-规范"><span class="nav-number">1.</span> <span class="nav-text">webapp 规范</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#字体设置"><span class="nav-number">1.1.</span> <span class="nav-text">字体设置</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

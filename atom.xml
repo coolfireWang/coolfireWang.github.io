@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-11-18T07:11:37.000Z</updated>
+  <updated>2016-11-18T07:14:05.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>webapp设计规范</title>
+    <link href="http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html"/>
+    <id>http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html</id>
+    <published>2016-11-18T07:14:05.000Z</published>
+    <updated>2016-11-18T07:14:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="webapp-规范"><a href="#webapp-规范" class="headerlink" title="webapp 规范"></a>webapp 规范</h1><ul>
+<li>设计尺寸：640*1039</li>
+<li><p>内容区域安全尺寸 640*832</p>
+<blockquote>
+<p>在iphone6上会被等比例放大1.17倍，画面会有一点点虚，但为了平衡文件大小和移动端适配问题，<br>目前做的App都采用这个尺寸<br>有图片必须有进行过压缩<br>考虑适度的有损压缩，如转化为80%质量的jpg图片<br>考虑把大图切成多张小图，常见在banner图过大的场景</p>
+</blockquote>
+</li>
+<li><p>开发尺寸问题：对于全平台的APP设计，我们通常以Android720<em>1280px的标准来做设计方案，然而web app的开发中并不能直接用720</em>1280px这样的尺寸进行搭建。</p>
+</li>
+<li><p>原因如下：</p>
+<blockquote>
+<p>设备像素和CSS像素一般使用px作为单位，并且在桌面浏览器的100%缩放情况下，<br>css的1个像素往往都是对应着电脑屏幕的1个物理像素，这可能会造成我们的一个错觉，<br>那就是css中的像素就是设备的物理像素。但实际情况却并非如此，<br>css像素只是一个抽象的单位，在不同的设备或不同的环境中，<br>css中的1px所代表的设备物理像素的长度是不同的。在为桌面浏览器设计的网页中，<br>我们无需对这个津津计较，但在移动设备上，必须弄明白这点。即：</p>
+</blockquote>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">css中的<span class="number">1</span>px并不是总代表设备像素上的<span class="number">1</span>px，尤其是在移动设备上。</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p> 这也就是为什么不能直接拿720<em>1280px作为开发尺寸的原因！因为我们的720x1280是物理像素，而web app使用的是逻辑像素；<br>   因此，我们的设计尺寸720</em>1280px对应到开发中的代码尺寸应该为340<em>640px,对应的iPhone6（750</em>1334）的开发尺寸为375<em>667px,iPhone6p(1080</em>1920px)……</p>
+</blockquote>
+<h2 id="字体设置"><a href="#字体设置" class="headerlink" title="字体设置"></a>字体设置</h2><ul>
+<li>使用无衬线字体</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">font-family</span>: <span class="string">"Helvetica Neue"</span>, Helvetica, STHeiTi, sans-serif;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>iOS 4.0+ 使用英文字体 Helvetica Neue，之前的iOS版本降级使用 Helvetica。中文字体设置为华文黑体STHeiTi。 需补充说明，华文黑体并不存在iOS的字体库中(<a href="http://support.apple.com/kb/HT5878)，" target="_blank" rel="external">http://support.apple.com/kb/HT5878)，</a> 但系统会自动将华文黑体 STHeiTi 兼容命中系统默认中文字体黑体-简或黑体-繁。<br>    Heiti SC Light 黑体-简 细体 （iOS 7后废弃）<br>    Heiti SC Medium 黑体-简 中黑<br>    Heiti TC Light 黑体-繁 细体<br>    Heiti TC Medium 黑体-繁 中黑<br>    原生Android下中文字体与英文字体都选择默认的无衬线字体。<br>    4.0 之前版本英文字体原生 Android 使用的是 Droid Sans，中文字体原生 Android 会命中 Droid Sans Fallback<br>    4.0 之后中英文字体都会使用原生 Android 新的 Roboto 字体<br>    其他第三方 Android 系统也一致选择默认的无衬线字体。</p>
+</blockquote>
+<p><img src="http://www.25xt.com/wp-content/uploads/2015/03/webAPP-前端性能优化规范.png" alt="Alt text" title="前端性能优化规范"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;webapp-规范&quot;&gt;&lt;a href=&quot;#webapp-规范&quot; class=&quot;headerlink&quot; title=&quot;webapp 规范&quot;&gt;&lt;/a&gt;webapp 规范&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;设计尺寸：640*1039&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;内容区域安全尺寸 6
+    
+    </summary>
+    
+      <category term="webapp" scheme="http://coolfireWang.github.io/categories/webapp/"/>
+    
+    
+      <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
+    
+      <category term="规范" scheme="http://coolfireWang.github.io/tags/%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
   
   <entry>
     <title>webapp重构日志</title>
@@ -50,65 +103,9 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
-    
       <category term="重构" scheme="http://coolfireWang.github.io/tags/%E9%87%8D%E6%9E%84/"/>
     
-  </entry>
-  
-  <entry>
-    <title>webapp设计规范</title>
-    <link href="http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html"/>
-    <id>http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html</id>
-    <published>2016-11-18T07:11:37.000Z</published>
-    <updated>2016-11-18T07:11:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="webapp-规范"><a href="#webapp-规范" class="headerlink" title="webapp 规范"></a>webapp 规范</h1><ul>
-<li>设计尺寸：640*1039</li>
-<li><p>内容区域安全尺寸 640*832</p>
-<blockquote>
-<p>在iphone6上会被等比例放大1.17倍，画面会有一点点虚，但为了平衡文件大小和移动端适配问题，<br>目前做的App都采用这个尺寸<br>有图片必须有进行过压缩<br>考虑适度的有损压缩，如转化为80%质量的jpg图片<br>考虑把大图切成多张小图，常见在banner图过大的场景</p>
-</blockquote>
-</li>
-<li><p>开发尺寸问题：对于全平台的APP设计，我们通常以Android720<em>1280px的标准来做设计方案，然而web app的开发中并不能直接用720</em>1280px这样的尺寸进行搭建。</p>
-</li>
-<li><p>原因如下：</p>
-<blockquote>
-<p>设备像素和CSS像素一般使用px作为单位，并且在桌面浏览器的100%缩放情况下，<br>css的1个像素往往都是对应着电脑屏幕的1个物理像素，这可能会造成我们的一个错觉，<br>那就是css中的像素就是设备的物理像素。但实际情况却并非如此，<br>css像素只是一个抽象的单位，在不同的设备或不同的环境中，<br>css中的1px所代表的设备物理像素的长度是不同的。在为桌面浏览器设计的网页中，<br>我们无需对这个津津计较，但在移动设备上，必须弄明白这点。即：</p>
-</blockquote>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">css中的<span class="number">1</span>px并不是总代表设备像素上的<span class="number">1</span>px，尤其是在移动设备上。</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<blockquote>
-<p> 这也就是为什么不能直接拿720<em>1280px作为开发尺寸的原因！因为我们的720x1280是物理像素，而web app使用的是逻辑像素；<br>   因此，我们的设计尺寸720</em>1280px对应到开发中的代码尺寸应该为340<em>640px,对应的iPhone6（750</em>1334）的开发尺寸为375<em>667px,iPhone6p(1080</em>1920px)……</p>
-</blockquote>
-<ul>
-<li>字体设置<blockquote>
-<p>使用无衬线字体</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">font-family</span>: <span class="string">"Helvetica Neue"</span>, Helvetica, STHeiTi, sans-serif;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-</blockquote>
-</li>
-</ul>
-<blockquote>
-<p>iOS 4.0+ 使用英文字体 Helvetica Neue，之前的iOS版本降级使用 Helvetica。中文字体设置为华文黑体STHeiTi。 需补充说明，华文黑体并不存在iOS的字体库中(<a href="http://support.apple.com/kb/HT5878)，" target="_blank" rel="external">http://support.apple.com/kb/HT5878)，</a> 但系统会自动将华文黑体 STHeiTi 兼容命中系统默认中文字体黑体-简或黑体-繁。<br>    Heiti SC Light 黑体-简 细体 （iOS 7后废弃）<br>    Heiti SC Medium 黑体-简 中黑<br>    Heiti TC Light 黑体-繁 细体<br>    Heiti TC Medium 黑体-繁 中黑<br>    原生Android下中文字体与英文字体都选择默认的无衬线字体。<br>    4.0 之前版本英文字体原生 Android 使用的是 Droid Sans，中文字体原生 Android 会命中 Droid Sans Fallback<br>    4.0 之后中英文字体都会使用原生 Android 新的 Roboto 字体<br>    其他第三方 Android 系统也一致选择默认的无衬线字体。</p>
-</blockquote>
-<p><img src="http://www.25xt.com/wp-content/uploads/2015/03/webAPP-前端性能优化规范.png" alt="Alt text" title="前端性能优化规范"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;webapp-规范&quot;&gt;&lt;a href=&quot;#webapp-规范&quot; class=&quot;headerlink&quot; title=&quot;webapp 规范&quot;&gt;&lt;/a&gt;webapp 规范&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;设计尺寸：640*1039&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;内容区域安全尺寸 6
-    
-    </summary>
-    
-      <category term="webapp" scheme="http://coolfireWang.github.io/categories/webapp/"/>
-    
-    
       <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
-    
-      <category term="规范" scheme="http://coolfireWang.github.io/tags/%E8%A7%84%E8%8C%83/"/>
     
   </entry>
   
@@ -481,26 +478,6 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 正则</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/regex.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/regex.html</id>
-    <published>2016-09-12T07:11:02.000Z</published>
-    <updated>2016-09-12T07:11:02.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="正则表达式" scheme="http://coolfireWang.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>彻底理解javascript之 定时器</title>
     <link href="http://coolfireWang.github.io/2016/09/12/timer.html"/>
     <id>http://coolfireWang.github.io/2016/09/12/timer.html</id>
@@ -521,9 +498,29 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 垃圾回收</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/gc.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/gc.html</id>
+    <title>彻底理解javascript之 正则</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/regex.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/regex.html</id>
+    <published>2016-09-12T07:11:02.000Z</published>
+    <updated>2016-09-12T07:11:02.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="正则表达式" scheme="http://coolfireWang.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 函数回调</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
     <published>2016-09-12T07:01:22.000Z</published>
     <updated>2016-09-12T07:01:22.000Z</updated>
     
@@ -536,7 +533,7 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="垃圾回收" scheme="http://coolfireWang.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
     
   </entry>
   
@@ -561,9 +558,9 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 函数回调</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
+    <title>彻底理解javascript之 垃圾回收</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/gc.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/gc.html</id>
     <published>2016-09-12T07:01:22.000Z</published>
     <updated>2016-09-12T07:01:22.000Z</updated>
     
@@ -576,7 +573,7 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
+      <category term="垃圾回收" scheme="http://coolfireWang.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
     
   </entry>
   
