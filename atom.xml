@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-11-18T06:53:51.000Z</updated>
+  <updated>2016-11-18T07:00:09.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://coolfireWang.github.io/2016/11/18/webappReView.html"/>
+    <id>http://coolfireWang.github.io/2016/11/18/webappReView.html</id>
+    <published>2016-11-18T07:00:09.000Z</published>
+    <updated>2016-11-18T07:00:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p> title: webapp重构日志<br> tags: </p>
+<ul>
+<li>javascript</li>
+<li>重构</li>
+<li>webapp<br>categories: webapp</li>
+</ul>
+<hr>
+<h2 id="Web-app的性能瓶颈"><a href="#Web-app的性能瓶颈" class="headerlink" title="Web app的性能瓶颈"></a>Web app的性能瓶颈</h2><ul>
+<li><p>代码执行效率</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span>dom的解析渲染</div><div class="line"><span class="number">2.</span>代码的质量</div><div class="line"><span class="number">3.</span>浏览器</div></pre></td></tr></table></figure>
+</li>
+<li><p>服务器效率</p>
+</li>
+<li>网络带宽及其他因素</li>
+</ul>
+<hr>
+<h2 id="webapp-重构之首页优化"><a href="#webapp-重构之首页优化" class="headerlink" title="webapp 重构之首页优化"></a>webapp 重构之首页优化</h2><hr>
+<h2 id="webapp-重构之定位优化"><a href="#webapp-重构之定位优化" class="headerlink" title="webapp 重构之定位优化"></a>webapp 重构之定位优化</h2><hr>
+<h2 id="webapp-重构之微信认证问题"><a href="#webapp-重构之微信认证问题" class="headerlink" title="webapp 重构之微信认证问题"></a>webapp 重构之微信认证问题</h2><hr>
+<h2 id="webapp-重构之架构"><a href="#webapp-重构之架构" class="headerlink" title="webapp 重构之架构"></a>webapp 重构之架构</h2><hr>
+<h2 id="webapp-重构之遇到的问题及解决方案"><a href="#webapp-重构之遇到的问题及解决方案" class="headerlink" title="webapp 重构之遇到的问题及解决方案"></a>webapp 重构之遇到的问题及解决方案</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt; title: webapp重构日志&lt;br&gt; tags: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;javascript&lt;/li&gt;
+&lt;li&gt;重构&lt;/li&gt;
+&lt;li&gt;webapp&lt;br&gt;categories: webapp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Web-
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>webapp设计规范</title>
@@ -67,53 +114,6 @@
       <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
     
       <category term="规范" scheme="http://coolfireWang.github.io/tags/%E8%A7%84%E8%8C%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://coolfireWang.github.io/2016/11/18/webappReView.html"/>
-    <id>http://coolfireWang.github.io/2016/11/18/webappReView.html</id>
-    <published>2016-11-18T06:52:00.000Z</published>
-    <updated>2016-11-18T06:52:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<hr>
-<p> title: webapp重构日志<br> tags: </p>
-<ul>
-<li>javascript</li>
-<li>重构</li>
-<li>webapp<br>categories: webapp</li>
-</ul>
-<hr>
-<h2 id="Web-app的性能瓶颈"><a href="#Web-app的性能瓶颈" class="headerlink" title="Web app的性能瓶颈"></a>Web app的性能瓶颈</h2><ul>
-<li><p>代码执行效率</p>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span>dom的解析渲染</div><div class="line"><span class="number">2.</span>代码的质量</div><div class="line"><span class="number">3.</span>浏览器</div></pre></td></tr></table></figure>
-</li>
-<li><p>服务器效率</p>
-</li>
-<li>网络带宽及其他因素</li>
-</ul>
-<hr>
-<h2 id="webapp-重构之首页优化"><a href="#webapp-重构之首页优化" class="headerlink" title="webapp 重构之首页优化"></a>webapp 重构之首页优化</h2><hr>
-<h2 id="webapp-重构之定位优化"><a href="#webapp-重构之定位优化" class="headerlink" title="webapp 重构之定位优化"></a>webapp 重构之定位优化</h2><hr>
-<h2 id="webapp-重构之微信认证问题"><a href="#webapp-重构之微信认证问题" class="headerlink" title="webapp 重构之微信认证问题"></a>webapp 重构之微信认证问题</h2><hr>
-<h2 id="webapp-重构之架构"><a href="#webapp-重构之架构" class="headerlink" title="webapp 重构之架构"></a>webapp 重构之架构</h2><hr>
-<h2 id="webapp-重构之遇到的问题及解决方案"><a href="#webapp-重构之遇到的问题及解决方案" class="headerlink" title="webapp 重构之遇到的问题及解决方案"></a>webapp 重构之遇到的问题及解决方案</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt; title: webapp重构日志&lt;br&gt; tags: &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;javascript&lt;/li&gt;
-&lt;li&gt;重构&lt;/li&gt;
-&lt;li&gt;webapp&lt;br&gt;categories: webapp&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;Web-
-    
-    </summary>
-    
     
   </entry>
   
