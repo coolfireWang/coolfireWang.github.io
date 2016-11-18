@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-11-17T06:43:11.000Z</updated>
+  <updated>2016-11-18T06:48:10.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,108 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>webapp设计规范</title>
+    <link href="http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html"/>
+    <id>http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html</id>
+    <published>2016-11-18T06:48:10.000Z</published>
+    <updated>2016-11-18T06:48:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="webapp-规范"><a href="#webapp-规范" class="headerlink" title="webapp 规范"></a>webapp 规范</h1><ul>
+<li>设计尺寸：640*1039</li>
+<li><p>内容区域安全尺寸 640*832</p>
+<blockquote>
+<p>在iphone6上会被等比例放大1.17倍，画面会有一点点虚，但为了平衡文件大小和移动端适配问题，<br>目前做的App都采用这个尺寸<br>有图片必须有进行过压缩<br>考虑适度的有损压缩，如转化为80%质量的jpg图片<br>考虑把大图切成多张小图，常见在banner图过大的场景</p>
+</blockquote>
+</li>
+<li><p>开发尺寸问题：对于全平台的APP设计，我们通常以Android720x1280px的标准来做设计方案，然而web app的开发中并不能直接用720*1280px这样的尺寸进行搭建。</p>
+</li>
+<li><p>原因如下：</p>
+<blockquote>
+<p>设备像素和CSS像素一般使用px作为单位，并且在桌面浏览器的100%缩放情况下，<br>css的1个像素往往都是对应着电脑屏幕的1个物理像素，这可能会造成我们的一个错觉，<br>那就是css中的像素就是设备的物理像素。但实际情况却并非如此，<br>css像素只是一个抽象的单位，在不同的设备或不同的环境中，<br>css中的1px所代表的设备物理像素的长度是不同的。在为桌面浏览器设计的网页中，<br>我们无需对这个津津计较，但在移动设备上，必须弄明白这点。即：</p>
+</blockquote>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">css中的<span class="number">1</span>px并不是总代表设备像素上的<span class="number">1</span>px，尤其是在移动设备上。</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p> 这也就是为什么不能直接拿720x1280px作为开发尺寸的原因！因为我们的720x1280是物理像素，而web app使用的是逻辑像素；<br>   因此，我们的设计尺寸720<em>1280px对应到开发中的代码尺寸应该为340</em>640px,对应的iPhone6（750<em>1334）的开发尺寸为375</em>667px,iPhone6p(1080*1920px)……</p>
+</blockquote>
+<ul>
+<li>字体设置<blockquote>
+<p>使用无衬线字体</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">font-family</span>: <span class="string">"Helvetica Neue"</span>, Helvetica, STHeiTi, sans-serif;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<p>iOS 4.0+ 使用英文字体 Helvetica Neue，之前的iOS版本降级使用 Helvetica。中文字体设置为华文黑体STHeiTi。 需补充说明，华文黑体并不存在iOS的字体库中(<a href="http://support.apple.com/kb/HT5878)，" target="_blank" rel="external">http://support.apple.com/kb/HT5878)，</a> 但系统会自动将华文黑体 STHeiTi 兼容命中系统默认中文字体黑体-简或黑体-繁。<br>    Heiti SC Light 黑体-简 细体 （iOS 7后废弃）<br>    Heiti SC Medium 黑体-简 中黑<br>    Heiti TC Light 黑体-繁 细体<br>    Heiti TC Medium 黑体-繁 中黑<br>    原生Android下中文字体与英文字体都选择默认的无衬线字体。<br>    4.0 之前版本英文字体原生 Android 使用的是 Droid Sans，中文字体原生 Android 会命中 Droid Sans Fallback<br>    4.0 之后中英文字体都会使用原生 Android 新的 Roboto 字体<br>    其他第三方 Android 系统也一致选择默认的无衬线字体。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;webapp-规范&quot;&gt;&lt;a href=&quot;#webapp-规范&quot; class=&quot;headerlink&quot; title=&quot;webapp 规范&quot;&gt;&lt;/a&gt;webapp 规范&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;设计尺寸：640*1039&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;内容区域安全尺寸 6
+    
+    </summary>
+    
+      <category term="webapp" scheme="http://coolfireWang.github.io/categories/webapp/"/>
+    
+    
+      <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
+    
+      <category term="规范" scheme="http://coolfireWang.github.io/tags/%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://coolfireWang.github.io/2016/11/18/webappReView.html"/>
+    <id>http://coolfireWang.github.io/2016/11/18/webappReView.html</id>
+    <published>2016-11-18T02:10:57.000Z</published>
+    <updated>2016-11-18T02:10:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<p> title: webapp 重构日志<br> tags: </p>
+<ul>
+<li>javascript</li>
+<li>重构</li>
+<li>webapp<br>categories: webapp</li>
+</ul>
+<hr>
+<h2 id="Web-app的性能瓶颈"><a href="#Web-app的性能瓶颈" class="headerlink" title="Web app的性能瓶颈"></a>Web app的性能瓶颈</h2><ul>
+<li><p>代码执行效率</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span>dom的解析渲染</div><div class="line"><span class="number">2.</span>代码的质量</div><div class="line"><span class="number">3.</span>浏览器</div></pre></td></tr></table></figure>
+</li>
+<li><p>服务器效率</p>
+</li>
+<li>网络带宽及其他因素</li>
+</ul>
+<hr>
+<h2 id="webapp-重构之首页优化"><a href="#webapp-重构之首页优化" class="headerlink" title="webapp 重构之首页优化"></a>webapp 重构之首页优化</h2><hr>
+<h2 id="webapp-重构之定位优化"><a href="#webapp-重构之定位优化" class="headerlink" title="webapp 重构之定位优化"></a>webapp 重构之定位优化</h2><hr>
+<h2 id="webapp-重构之微信认证问题"><a href="#webapp-重构之微信认证问题" class="headerlink" title="webapp 重构之微信认证问题"></a>webapp 重构之微信认证问题</h2><hr>
+<h2 id="webapp-重构之架构"><a href="#webapp-重构之架构" class="headerlink" title="webapp 重构之架构"></a>webapp 重构之架构</h2><hr>
+<h2 id="webapp-重构之遇到的问题及解决方案"><a href="#webapp-重构之遇到的问题及解决方案" class="headerlink" title="webapp 重构之遇到的问题及解决方案"></a>webapp 重构之遇到的问题及解决方案</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt; title: webapp 重构日志&lt;br&gt; tags: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;javascript&lt;/li&gt;
+&lt;li&gt;重构&lt;/li&gt;
+&lt;li&gt;webapp&lt;br&gt;categories: webapp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;Web
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>rem 自适应方案</title>
@@ -76,6 +178,28 @@
   </entry>
   
   <entry>
+    <title>彻底理解javascript之数组和对象</title>
+    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
+    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
+    <published>2016-11-17T01:40:05.000Z</published>
+    <updated>2016-11-17T01:40:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>彻底理解javascript之 跨域</title>
     <link href="http://coolfireWang.github.io/2016/11/17/cross-domain.html"/>
     <id>http://coolfireWang.github.io/2016/11/17/cross-domain.html</id>
@@ -100,28 +224,6 @@
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
       <category term="跨域" scheme="http://coolfireWang.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之数组和对象</title>
-    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
-    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
-    <published>2016-11-17T01:40:05.000Z</published>
-    <updated>2016-11-17T01:40:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -424,26 +526,6 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 函数回调</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
-    <published>2016-09-12T07:01:22.000Z</published>
-    <updated>2016-09-12T07:01:22.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
-    
-  </entry>
-  
-  <entry>
     <title>彻底理解javascript之 垃圾回收</title>
     <link href="http://coolfireWang.github.io/2016/09/12/gc.html"/>
     <id>http://coolfireWang.github.io/2016/09/12/gc.html</id>
@@ -480,6 +562,26 @@
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
       <category term="设计模式" scheme="http://coolfireWang.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 函数回调</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
+    <published>2016-09-12T07:01:22.000Z</published>
+    <updated>2016-09-12T07:01:22.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
     
   </entry>
   
@@ -566,64 +668,6 @@
     
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>马哥专属</title>
-    <link href="http://coolfireWang.github.io/2016/09/08/test.html"/>
-    <id>http://coolfireWang.github.io/2016/09/08/test.html</id>
-    <published>2016-09-08T05:16:32.000Z</published>
-    <updated>2016-09-08T05:16:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第一篇"><a href="#第一篇" class="headerlink" title="第一篇"></a>第一篇</h1> <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">马哥专属地盘，每日更新</div></pre></td></tr></table></figure>
-<ul>
-<li>You are the greatest refreshment in my life;<br><img src="/images/love0.jpg" alt="Alt text"></li>
-</ul>
-<hr>
-<ul>
-<li><p>No matter the ending is perfect or not, you cannot disappear from my world.<br><img src="/images/love1.jpg" alt="Alt text"></p>
-</li>
-<li><p>If equal affection cannot be, let the more loving be me.</p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;第一篇&quot;&gt;&lt;a href=&quot;#第一篇&quot; class=&quot;headerlink&quot; title=&quot;第一篇&quot;&gt;&lt;/a&gt;第一篇&lt;/h1&gt; &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;d
-    
-    </summary>
-    
-      <category term="马哥专属" scheme="http://coolfireWang.github.io/categories/%E9%A9%AC%E5%93%A5%E4%B8%93%E5%B1%9E/"/>
-    
-    
-      <category term="马哥专属" scheme="http://coolfireWang.github.io/tags/%E9%A9%AC%E5%93%A5%E4%B8%93%E5%B1%9E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>前端工程师该具备怎样的技能呢</title>
-    <link href="http://coolfireWang.github.io/2016/09/07/front-end.html"/>
-    <id>http://coolfireWang.github.io/2016/09/07/front-end.html</id>
-    <published>2016-09-07T15:29:22.000Z</published>
-    <updated>2016-09-07T15:29:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一个合格的前端工程师应该具备怎样的能力？"><a href="#一个合格的前端工程师应该具备怎样的能力？" class="headerlink" title="一个合格的前端工程师应该具备怎样的能力？"></a>一个合格的前端工程师应该具备怎样的能力？</h2><p> 首先你要知道什么是前端。<br> 前端工程师的英文名为front-end engineer，简称FE<br> 前端都干些什么呢？无非是三大块：html / css / js，但如果就这样，那前端也不过如此，<br> 现在意义上的前端（并非只制作网页）<br> 2011年之前，FE的工作基本都是由服务端工程师包办的，或者是由设计师来产出HTML页面。</p>
-<h3 id="用户体验的把控者"><a href="#用户体验的把控者" class="headerlink" title="用户体验的把控者"></a>用户体验的把控者</h3><p> 前端工程师的主要的工作就是开发用户界面，在web系统中，就是指网页了。为什么网页需要专门的FE来写呢？答案就是为了「用户体验」。<br> 从web2.0概念的普及到web3.0的提出，用户成为互联网的主要生产者，网页所承载的功能愈加丰富多样。<br> <br><br> 首先是企业的需求：如果你的网站、app等界面做的很丑的话，我相信大众是不能接受的开发者也作为第一个使用者估计都看不过去。<br> 其次是用户的需求：现在的用户也都很挑剔。毕竟他们使用的产品各个都要么炫酷要么清爽，都被惯坏了，你的产品稍有点不爽的地方，“影响我心情不爽给你个差评”，要么就直接卸载这样你的用户就这么流失了，你的产品的价值就没了。<br> 想做出漂亮的界面你必须熟练布局 html css （h5 、css3），主流的布局风格，UI框架,响应式，浏览器兼容等<br> 随着HTML5的支持度越来越高，前端拥有的能力也会越强。比如利用canvas能够获取到图片上的每一个像素点，这样前端就拥有了图像处理能力。有了FileReader API，前端拥有了本地文件的读取能力，本地数据库，还有地理位置获取等等</p>
-<h3 id="用户习惯的引导者"><a href="#用户习惯的引导者" class="headerlink" title="用户习惯的引导者"></a>用户习惯的引导者</h3><p> 用户界面的设计，操作方式，交互习惯等都由你的逻辑代码来控制，所以作为FE你不仅要写出漂亮的界面，还要编写程序去处理控制业务逻辑<br> 以前呢，用户端就是个IE浏览器，没有什么业务逻辑可言。但现在不同了，用户使用浏览器发表文章、进行社交活动，更复杂的能使用在线工具完成工作等。<br> javascript就是FE需要掌握的编程语言，他应该通晓这门语言的优势和缺点，掌握各种编程思想、开发模式。利用各种技巧实现交互越来越丰富的界面，<br> 同时还要与服务端的工程师沟通，调试接口，完成：页面展示——响应用户操作——提交用户数据——反馈操作结果这一系列流程</p>
-<h4 id="有图有真相先看一张技能图"><a href="#有图有真相先看一张技能图" class="headerlink" title="有图有真相先看一张技能图"></a>有图有真相先看一张技能图</h4><p><img src="/images/fetecnl.jpg" alt="Alt text" title="Optional title"></p>
-<p><strong>以上属于个人观点和看法</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;a href=&quot;#一个合格的前端工程师应该具备怎样的能力？&quot; class=&quot;headerlink&quot; title=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;/a&gt;一个合格的前端工程师应该具备怎样的能力？&lt;/h2&gt;&lt;
-    
-    </summary>
-    
-    
-      <category term="随想" scheme="http://coolfireWang.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
     
   </entry>
   

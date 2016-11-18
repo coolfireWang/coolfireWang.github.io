@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="javascript," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -86,16 +86,76 @@
 
 
 
-<meta name="description" content="什么是闭包">
+<meta name="description" content="title: webapp 重构日志 tags: 
+
+javascript
+重构
+webappcategories: webapp
+
+
+Web app的性能瓶颈
+代码执行效率
+1231.dom的解析渲染2.代码的质量3.浏览器
+
+服务器效率
+
+网络带宽及其他因素
+
+
+webapp 重构之首页优化
+webapp 重构之定位优化
+webapp 重构之微信认证问题
+webapp 重构之架构
+weba">
 <meta property="og:type" content="article">
-<meta property="og:title" content="彻底理解javascript之 闭包">
-<meta property="og:url" content="http://coolfireWang.github.io/2016/09/12/closure.html">
+<meta property="og:title" content="Demain's Page">
+<meta property="og:url" content="http://coolfireWang.github.io/2016/11/18/webappReView.html">
 <meta property="og:site_name" content="Demain's Page">
-<meta property="og:description" content="什么是闭包">
-<meta property="og:updated_time" content="2016-09-12T06:32:34.000Z">
+<meta property="og:description" content="title: webapp 重构日志 tags: 
+
+javascript
+重构
+webappcategories: webapp
+
+
+Web app的性能瓶颈
+代码执行效率
+1231.dom的解析渲染2.代码的质量3.浏览器
+
+服务器效率
+
+网络带宽及其他因素
+
+
+webapp 重构之首页优化
+webapp 重构之定位优化
+webapp 重构之微信认证问题
+webapp 重构之架构
+weba">
+<meta property="og:updated_time" content="2016-11-18T02:10:57.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="彻底理解javascript之 闭包">
-<meta name="twitter:description" content="什么是闭包">
+<meta name="twitter:title" content="Demain's Page">
+<meta name="twitter:description" content="title: webapp 重构日志 tags: 
+
+javascript
+重构
+webappcategories: webapp
+
+
+Web app的性能瓶颈
+代码执行效率
+1231.dom的解析渲染2.代码的质量3.浏览器
+
+服务器效率
+
+网络带宽及其他因素
+
+
+webapp 重构之首页优化
+webapp 重构之定位优化
+webapp 重构之微信认证问题
+webapp 重构之架构
+weba">
 
 
 
@@ -116,9 +176,9 @@
 
 
 
-  <link rel="canonical" href="http://coolfireWang.github.io/2016/09/12/closure.html"/>
+  <link rel="canonical" href="http://coolfireWang.github.io/2016/11/18/webappReView.html"/>
 
-  <title> 彻底理解javascript之 闭包 | Demain's Page </title>
+  <title>  | Demain's Page </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -284,7 +344,7 @@
             
             
               
-                彻底理解javascript之 闭包
+                
               
             
           </h1>
@@ -296,38 +356,19 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-12T14:32:34+08:00" content="2016-09-12">
-              2016-09-12
+            <time itemprop="dateCreated" datetime="2016-11-18T10:10:57+08:00" content="2016-11-18">
+              2016-11-18
             </time>
           </span>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/彻底理解javascript系列/" itemprop="url" rel="index">
-                    <span itemprop="name">彻底理解javascript系列</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/12/closure.html#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/12/closure.html" itemprop="commentsCount"></span>
+                <a href="/2016/11/18/webappReView.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/18/webappReView.html" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -355,7 +396,28 @@
       
 
       
-        <h2 id="什么是闭包"><a href="#什么是闭包" class="headerlink" title="什么是闭包"></a>什么是闭包</h2>
+        <hr>
+<p> title: webapp 重构日志<br> tags: </p>
+<ul>
+<li>javascript</li>
+<li>重构</li>
+<li>webapp<br>categories: webapp</li>
+</ul>
+<hr>
+<h2 id="Web-app的性能瓶颈"><a href="#Web-app的性能瓶颈" class="headerlink" title="Web app的性能瓶颈"></a>Web app的性能瓶颈</h2><ul>
+<li><p>代码执行效率</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">1.</span>dom的解析渲染</div><div class="line"><span class="number">2.</span>代码的质量</div><div class="line"><span class="number">3.</span>浏览器</div></pre></td></tr></table></figure>
+</li>
+<li><p>服务器效率</p>
+</li>
+<li>网络带宽及其他因素</li>
+</ul>
+<hr>
+<h2 id="webapp-重构之首页优化"><a href="#webapp-重构之首页优化" class="headerlink" title="webapp 重构之首页优化"></a>webapp 重构之首页优化</h2><hr>
+<h2 id="webapp-重构之定位优化"><a href="#webapp-重构之定位优化" class="headerlink" title="webapp 重构之定位优化"></a>webapp 重构之定位优化</h2><hr>
+<h2 id="webapp-重构之微信认证问题"><a href="#webapp-重构之微信认证问题" class="headerlink" title="webapp 重构之微信认证问题"></a>webapp 重构之微信认证问题</h2><hr>
+<h2 id="webapp-重构之架构"><a href="#webapp-重构之架构" class="headerlink" title="webapp 重构之架构"></a>webapp 重构之架构</h2><hr>
+<h2 id="webapp-重构之遇到的问题及解决方案"><a href="#webapp-重构之遇到的问题及解决方案" class="headerlink" title="webapp 重构之遇到的问题及解决方案"></a>webapp 重构之遇到的问题及解决方案</h2>
       
     </div>
 
@@ -375,27 +437,21 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/javascript/" rel="tag">#javascript</a>
-          
-        </div>
-      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/09/08/test.html" rel="next" title="马哥专属">
-                <i class="fa fa-chevron-left"></i> 马哥专属
+              <a href="/2016/11/17/rem.html" rel="next" title="rem 自适应方案">
+                <i class="fa fa-chevron-left"></i> rem 自适应方案
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/09/12/extend.html" rel="prev" title="彻底理解javascript之 继承">
-                彻底理解javascript之 继承 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/11/18/webappDesignSpecifications.html" rel="prev" title="webapp设计规范">
+                webapp设计规范 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -422,8 +478,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/09/12/closure.html"
-           data-title="彻底理解javascript之 闭包" data-url="http://coolfireWang.github.io/2016/09/12/closure.html">
+      <div class="ds-thread" data-thread-key="2016/11/18/webappReView.html"
+           data-title="" data-url="http://coolfireWang.github.io/2016/11/18/webappReView.html">
       </div>
     
   </div>
@@ -556,7 +612,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是闭包"><span class="nav-number">1.</span> <span class="nav-text">什么是闭包</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Web-app的性能瓶颈"><span class="nav-number">1.</span> <span class="nav-text">Web app的性能瓶颈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webapp-重构之首页优化"><span class="nav-number">2.</span> <span class="nav-text">webapp 重构之首页优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webapp-重构之定位优化"><span class="nav-number">3.</span> <span class="nav-text">webapp 重构之定位优化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webapp-重构之微信认证问题"><span class="nav-number">4.</span> <span class="nav-text">webapp 重构之微信认证问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webapp-重构之架构"><span class="nav-number">5.</span> <span class="nav-text">webapp 重构之架构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webapp-重构之遇到的问题及解决方案"><span class="nav-number">6.</span> <span class="nav-text">webapp 重构之遇到的问题及解决方案</span></a></li></ol></div>
             
           </div>
         </section>

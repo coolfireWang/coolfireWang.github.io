@@ -4,6 +4,44 @@
 
     
   <url>
+    <loc>http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html</loc>
+    <lastmod>2016-11-18T06:48:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>webapp设计规范</title>
+        <pubTime>2016-11-18T06:48:10.000Z</pubTime>
+        
+        <tag>webapp</tag>
+         
+        <tag>规范</tag>
+         
+         
+           
+             
+              <breadCrumb title="webapp" url="http://coolfireWang.github.io/categories/webapp/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://coolfireWang.github.io/2016/11/18/webappReView.html</loc>
+    <lastmod>2016-11-18T02:10:57.000Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2016-11-18T02:10:57.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://coolfireWang.github.io/2016/11/17/rem.html</loc>
     <lastmod>2016-11-17T06:43:11.000Z</lastmod>
     <data>
@@ -68,7 +106,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://coolfireWang.github.io/2016/11/07/aboutVue.html</loc>
@@ -199,16 +236,16 @@
 
     
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/timer.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/regex.html</loc>
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     <data>
         <display>
-        <title>彻底理解javascript之 定时器</title>
+        <title>彻底理解javascript之 正则</title>
         <pubTime>2016-09-12T07:11:02.000Z</pubTime>
         
         <tag>javascript</tag>
          
-        <tag>定时器</tag>
+        <tag>正则表达式</tag>
          
          
            
@@ -221,16 +258,16 @@
 
     
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/regex.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/timer.html</loc>
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     <data>
         <display>
-        <title>彻底理解javascript之 正则</title>
+        <title>彻底理解javascript之 定时器</title>
         <pubTime>2016-09-12T07:11:02.000Z</pubTime>
         
         <tag>javascript</tag>
          
-        <tag>正则表达式</tag>
+        <tag>定时器</tag>
          
          
            

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/2016/11/18/webappDesignSpecifications.html</loc>
+    
+    <lastmod>2016-11-18T06:48:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://coolfireWang.github.io/2016/11/18/webappReView.html</loc>
+    
+    <lastmod>2016-11-18T02:10:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://coolfireWang.github.io/categories/index.html</loc>
+    
+    <lastmod>2016-11-18T01:51:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/2016/11/17/rem.html</loc>
     
     <lastmod>2016-11-17T06:43:11.000Z</lastmod>
@@ -19,13 +40,6 @@
     <loc>http://coolfireWang.github.io/2016/11/17/cross-domain.html</loc>
     
     <lastmod>2016-11-17T01:40:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/categories/index.html</loc>
-    
-    <lastmod>2016-11-17T01:30:48.000Z</lastmod>
     
   </url>
   
@@ -79,14 +93,14 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/timer.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/regex.html</loc>
     
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/regex.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/timer.html</loc>
     
     <lastmod>2016-09-12T07:11:02.000Z</lastmod>
     
