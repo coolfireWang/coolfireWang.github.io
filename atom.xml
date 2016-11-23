@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-11-22T10:33:25.000Z</updated>
+  <updated>2016-11-22T10:46:47.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -19,14 +19,14 @@
     <title>aria_hidden</title>
     <link href="http://coolfireWang.github.io/2016/11/22/aria-hidden.html"/>
     <id>http://coolfireWang.github.io/2016/11/22/aria-hidden.html</id>
-    <published>2016-11-22T10:33:25.000Z</published>
-    <updated>2016-11-22T10:33:25.000Z</updated>
+    <published>2016-11-22T10:46:47.000Z</published>
+    <updated>2016-11-22T10:46:47.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="aria-hidden"><a href="#aria-hidden" class="headerlink" title="aria-hidden"></a>aria-hidden</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">图标的可访问性</div><div class="line">现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的 Unicode 字符。</div><div class="line">为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容</div><div class="line">（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了 aria-hidden=&quot;true&quot; 属性。</div><div class="line">如果你使用图标是为了表达某些含义（不仅仅是为了装饰用），</div><div class="line">请确保你所要表达的意思能够通过被辅助设备识别，例如，包含额外的内容并通过 </div><div class="line">.sr-only 类让其在视觉上表现出隐藏的效果。</div><div class="line">如果你所创建的组件不包含任何文本内容（例如， &lt;button&gt; 内只包含了一个图标），</div><div class="line">你应当提供其他的内容来表示这个控件的意图，这样就能让使用辅助设备的用户知道其作用了。</div><div class="line">这种情况下，你可以为控件添加 aria-label 属相。</div></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h1 id="aria-hidden"><a href="#aria-hidden" class="headerlink" title="aria-hidden"></a>aria-hidden</h1><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">图标的可访问性</div><div class="line">现代的辅助技术能够识别并朗读由 CSS 生成的内容和特定的 Unicode 字符。</div><div class="line">为了避免 屏幕识读设备抓取非故意的和可能产生混淆的输出内容</div><div class="line">（尤其是当图标纯粹作为装饰用途时），我们为这些图标设置了 aria-hidden=<span class="string">"true"</span> 属性。</div><div class="line">如果你使用图标是为了表达某些含义（不仅仅是为了装饰用），</div><div class="line">请确保你所要表达的意思能够通过被辅助设备识别，例如，包含额外的内容并通过 </div><div class="line"><span class="selector-class">.sr-only</span> 类让其在视觉上表现出隐藏的效果。</div><div class="line">如果你所创建的组件不包含任何文本内容（例如， &lt;button&gt; 内只包含了一个图标），</div><div class="line">你应当提供其他的内容来表示这个控件的意图，这样就能让使用辅助设备的用户知道其作用了。</div><div class="line">这种情况下，你可以为控件添加 aria-<span class="selector-tag">label</span> 属相。</div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;aria-hidden&quot;&gt;&lt;a href=&quot;#aria-hidden&quot; class=&quot;headerlink&quot; title=&quot;aria-hidden&quot;&gt;&lt;/a&gt;aria-hidden&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;tabl
+      &lt;h1 id=&quot;aria-hidden&quot;&gt;&lt;a href=&quot;#aria-hidden&quot; class=&quot;headerlink&quot; title=&quot;aria-hidden&quot;&gt;&lt;/a&gt;aria-hidden&lt;/h1&gt;&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;tab
     
     </summary>
     
@@ -123,9 +123,9 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="重构" scheme="http://coolfireWang.github.io/tags/%E9%87%8D%E6%9E%84/"/>
-    
       <category term="webapp" scheme="http://coolfireWang.github.io/tags/webapp/"/>
+    
+      <category term="重构" scheme="http://coolfireWang.github.io/tags/%E9%87%8D%E6%9E%84/"/>
     
   </entry>
   
@@ -190,6 +190,28 @@
   </entry>
   
   <entry>
+    <title>彻底理解javascript之数组和对象</title>
+    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
+    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
+    <published>2016-11-17T01:40:05.000Z</published>
+    <updated>2016-11-17T01:40:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>彻底理解javascript之 跨域</title>
     <link href="http://coolfireWang.github.io/2016/11/17/cross-domain.html"/>
     <id>http://coolfireWang.github.io/2016/11/17/cross-domain.html</id>
@@ -214,28 +236,6 @@
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
       <category term="跨域" scheme="http://coolfireWang.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之数组和对象</title>
-    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
-    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
-    <published>2016-11-17T01:40:05.000Z</published>
-    <updated>2016-11-17T01:40:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -538,6 +538,26 @@
   </entry>
   
   <entry>
+    <title>彻底理解javascript之 设计模式</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/designPattern.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/designPattern.html</id>
+    <published>2016-09-12T07:01:22.000Z</published>
+    <updated>2016-09-12T07:01:22.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="设计模式" scheme="http://coolfireWang.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>彻底理解javascript之 垃圾回收</title>
     <link href="http://coolfireWang.github.io/2016/09/12/gc.html"/>
     <id>http://coolfireWang.github.io/2016/09/12/gc.html</id>
@@ -574,26 +594,6 @@
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
       <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之 设计模式</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/designPattern.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/designPattern.html</id>
-    <published>2016-09-12T07:01:22.000Z</published>
-    <updated>2016-09-12T07:01:22.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="设计模式" scheme="http://coolfireWang.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
