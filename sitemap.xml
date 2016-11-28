@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://coolfireWang.github.io/2016/11/29/rem.html</loc>
+    
+    <lastmod>2016-11-28T16:08:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://coolfireWang.github.io/categories/index.html</loc>
     
     <lastmod>2016-11-23T14:11:41.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>http://coolfireWang.github.io/2016/11/18/webappReView.html</loc>
     
     <lastmod>2016-11-18T07:11:37.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://coolfireWang.github.io/2016/11/17/rem.html</loc>
-    
-    <lastmod>2016-11-17T06:43:11.000Z</lastmod>
     
   </url>
   
@@ -121,7 +121,7 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/gc.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/callbcak.html</loc>
     
     <lastmod>2016-09-12T07:01:22.000Z</lastmod>
     
@@ -135,7 +135,7 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/callbcak.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/gc.html</loc>
     
     <lastmod>2016-09-12T07:01:22.000Z</lastmod>
     
@@ -149,14 +149,14 @@
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/2016/09/12/syncAndAsync.html</loc>
+    <loc>http://coolfireWang.github.io/tags/index.html</loc>
     
     <lastmod>2016-09-12T06:42:14.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://coolfireWang.github.io/tags/index.html</loc>
+    <loc>http://coolfireWang.github.io/2016/09/12/syncAndAsync.html</loc>
     
     <lastmod>2016-09-12T06:42:14.000Z</lastmod>
     
