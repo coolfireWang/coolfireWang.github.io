@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-11-28T16:08:05.000Z</updated>
+  <updated>2016-12-08T06:46:10.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,125 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端功能测试学习01</title>
+    <link href="http://coolfireWang.github.io/2016/12/08/front-end-tests.html"/>
+    <id>http://coolfireWang.github.io/2016/12/08/front-end-tests.html</id>
+    <published>2016-12-08T06:46:10.000Z</published>
+    <updated>2016-12-08T06:46:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前端工程测试"><a href="#前端工程测试" class="headerlink" title="前端工程测试"></a>前端工程测试</h1><h2 id="为什么写测试"><a href="#为什么写测试" class="headerlink" title="为什么写测试?"></a>为什么写测试?</h2><ul>
+<li>Web应用越来越复杂，意味着更可能出错。测试是提高代码质量、 降低错误的最好方法之一。<ul>
+<li>测试可以确保得到预期结果。</li>
+<li>加快开发速度。</li>
+<li>方便维护。</li>
+<li>提供用法的文档。</li>
+</ul>
+</li>
+<li>对于长期维护的项目，测试会大大加快开发速度，减轻维护难度。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前端工程测试&quot;&gt;&lt;a href=&quot;#前端工程测试&quot; class=&quot;headerlink&quot; title=&quot;前端工程测试&quot;&gt;&lt;/a&gt;前端工程测试&lt;/h1&gt;&lt;h2 id=&quot;为什么写测试&quot;&gt;&lt;a href=&quot;#为什么写测试&quot; class=&quot;headerlink&quot; titl
+    
+    </summary>
+    
+      <category term="test" scheme="http://coolfireWang.github.io/categories/test/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="test" scheme="http://coolfireWang.github.io/tags/test/"/>
+    
+      <category term="mocha" scheme="http://coolfireWang.github.io/tags/mocha/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript的MVX模式</title>
+    <link href="http://coolfireWang.github.io/2016/12/08/mvx.html"/>
+    <id>http://coolfireWang.github.io/2016/12/08/mvx.html</id>
+    <published>2016-12-08T06:08:11.000Z</published>
+    <updated>2016-12-08T06:08:11.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="mvx" scheme="http://coolfireWang.github.io/tags/mvx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript之 垃圾回收</title>
+    <link href="http://coolfireWang.github.io/2016/12/08/gc.html"/>
+    <id>http://coolfireWang.github.io/2016/12/08/gc.html</id>
+    <published>2016-12-08T06:05:17.000Z</published>
+    <updated>2016-12-08T06:05:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="浏览器js垃圾回收机制"><a href="#浏览器js垃圾回收机制" class="headerlink" title="浏览器js垃圾回收机制"></a>浏览器js垃圾回收机制</h1><h2 id="一、垃圾回收机制—GC-Garbage-Collecation"><a href="#一、垃圾回收机制—GC-Garbage-Collecation" class="headerlink" title="一、垃圾回收机制—GC:(Garbage Collecation)"></a>一、垃圾回收机制—GC:(Garbage Collecation)</h2><p> Javascript具有自动垃圾回收机制(GC:Garbage Collecation)，也就是说，执行环境会负责管理代码执行过程中使用的内存。<br> 原理：垃圾收集器会定期（周期性）找出那些不在继续使用的变量，然后释放其内存。</p>
+<p> JavaScript垃圾回收的机制很简单：找出不再使用的变量，然后释放掉其占用的内存，但是这个过程不是实时的，<br> 因为其开销比较大，所以垃圾回收器会按照固定的时间间隔周期性的执行。</p>
+<p> 不再使用的变量也就是生命周期结束的变量，当然只可能是局部变量，全局变量的生命周期直至浏览器卸载页面才会结束。<br> 局部变量只在函数的执行过程中存在，而在这个过程中会为局部变量在栈或堆上分配相应的空间，以存储它们的值，<br> 然后在函数中使用这些变量，直至函数结束，而闭包中由于内部函数的原因，外部函数并不能算是结束。</p>
+<h2 id="二-垃圾回收的方式"><a href="#二-垃圾回收的方式" class="headerlink" title="二,垃圾回收的方式"></a>二,垃圾回收的方式</h2><ul>
+<li><p>标记清除</p>
+</li>
+<li><p>引用计数</p>
+<h2 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h2></li>
+<li><p>什么时候出发垃圾回收</p>
+</li>
+<li><p>合理的gc方案</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;浏览器js垃圾回收机制&quot;&gt;&lt;a href=&quot;#浏览器js垃圾回收机制&quot; class=&quot;headerlink&quot; title=&quot;浏览器js垃圾回收机制&quot;&gt;&lt;/a&gt;浏览器js垃圾回收机制&lt;/h1&gt;&lt;h2 id=&quot;一、垃圾回收机制—GC-Garbage-Collecati
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="垃圾回收" scheme="http://coolfireWang.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端工程师该具备怎样的技能呢</title>
+    <link href="http://coolfireWang.github.io/2016/11/29/front-end.html"/>
+    <id>http://coolfireWang.github.io/2016/11/29/front-end.html</id>
+    <published>2016-11-29T05:38:08.000Z</published>
+    <updated>2016-11-29T05:38:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一个合格的前端工程师应该具备怎样的能力？"><a href="#一个合格的前端工程师应该具备怎样的能力？" class="headerlink" title="一个合格的前端工程师应该具备怎样的能力？"></a>一个合格的前端工程师应该具备怎样的能力？</h2><p> 首先你要知道什么是前端。<br> 前端工程师的英文名为front-end engineer，简称FE<br> 前端都干些什么呢？无非是三大块：html / css / js，但如果就这样，那前端也不过如此，<br> 现在意义上的前端（并非只制作网页）<br> 2011年之前，FE的工作基本都是由服务端工程师包办的，或者是由设计师来产出HTML页面。</p>
+<h3 id="用户体验的把控者"><a href="#用户体验的把控者" class="headerlink" title="用户体验的把控者"></a>用户体验的把控者</h3><p> 前端工程师的主要的工作就是开发用户界面，在web系统中，就是指网页了。为什么网页需要专门的FE来写呢？答案就是为了「用户体验」。<br> 从web2.0概念的普及到web3.0的提出，用户成为互联网的主要生产者，网页所承载的功能愈加丰富多样。<br> <br><br> 首先是企业的需求：如果你的网站、app等界面做的很丑的话，我相信大众是不能接受的开发者也作为第一个使用者估计都看不过去。<br> 其次是用户的需求：现在的用户也都很挑剔。毕竟他们使用的产品各个都要么炫酷要么清爽，都被惯坏了，你的产品稍有点不爽的地方，“影响我心情不爽给你个差评”，要么就直接卸载这样你的用户就这么流失了，你的产品的价值就没了。<br> 想做出漂亮的界面你必须熟练布局](html css （h5 、css3），主流的布局风格，UI框架,响应式，浏览器兼容等<br> 随着HTML5的支持度越来越高，前端拥有的能力也会越强。比如利用canvas能够获取到图片上的每一个像素点，这样前端就拥有了图像处理能力。有了FileReader API，前端拥有了本地文件的读取能力，本地数据库，还有地理位置获取等等</p>
+<h3 id="用户习惯的引导者"><a href="#用户习惯的引导者" class="headerlink" title="用户习惯的引导者"></a>用户习惯的引导者</h3><p> 用户界面的设计，操作方式，交互习惯等都由你的逻辑代码来控制，所以作为FE你不仅要写出漂亮的界面，还要编写程序去处理控制业务逻辑<br> 以前呢，用户端就是个IE浏览器，没有什么业务逻辑可言。但现在不同了，用户使用浏览器发表文章、进行社交活动，更复杂的能使用在线工具完成工作等。<br> javascript就是FE需要掌握的编程语言，他应该通晓这门语言的优势和缺点，掌握各种编程思想、开发模式。利用各种技巧实现交互越来越丰富的界面，<br> 同时还要与服务端的工程师沟通，调试接口，完成：页面展示——响应用户操作——提交用户数据——反馈操作结果这一系列流程</p>
+<h4 id="有图有真相先看一张技能图"><a href="#有图有真相先看一张技能图" class="headerlink" title="有图有真相先看一张技能图"></a>有图有真相先看一张技能图</h4><p><img src="/images/fetecnl.jpg" alt="Alt text" title="Optional title"></p>
+<p><strong>以上属于个人观点和看法</strong></p>
+<h2 id="推荐一些前端大牛博客"><a href="#推荐一些前端大牛博客" class="headerlink" title="推荐一些前端大牛博客"></a>推荐一些前端大牛博客</h2><p>####一些前端大牛的博客地址，排名不分先后。。。<br><a href="http://evanyou.me/" target="_blank" rel="external">尤小右</a><br><a href="http://www.ruanyifeng.com/home.html" target="_blank" rel="external">阮一峰</a><br><a href="http://www.zhangxinxu.com/" target="_blank" rel="external">张鑫旭</a><br><a href="http://sentsin.com/" target="_blank" rel="external">贤心</a><br><a href="http://yuguo.us/" target="_blank" rel="external">余果</a><br><a href="http://jiongks.name/" target="_blank" rel="external">囧克斯（勾三股四）</a><br><a href="http://ideazhao.com/" target="_blank" rel="external">灵感</a><br><a href="http://www.doyoe.com/" target="_blank" rel="external">杜瑶（飘零雾雨）</a><br><a href="http://www.cnblogs.com/jikey/" target="_blank" rel="external">豪情</a><br><a href="http://blog.f2er.net/" target="_blank" rel="external">情封</a><br><a href="http://www.barretlee.com/" target="_blank" rel="external">小胡子哥</a><br><a href="http://luopq.com/" target="_blank" rel="external">狼狼的蓝胖子</a><br><a href="http://www.w3cplus.com/" target="_blank" rel="external">大漠</a><br><a href="http://yanhaijing.com/" target="_blank" rel="external">颜海镜</a><br><a href="https://xuexb.com/" target="_blank" rel="external">前端小武</a><br><a href="http://yujiangshui.com/" target="_blank" rel="external">于江水</a><br><a href="http://www.cnblogs.com/tugenhua0707/" target="_blank" rel="external">空智</a><br><a href="http://www.dang-jian.com/" target="_blank" rel="external">党建</a><br><a href="http://tiye.me/" target="_blank" rel="external">题叶</a><br><a href="http://www.cnblogs.com/TomXu/" target="_blank" rel="external">汤姆大叔</a><br><a href="http://www.cnblogs.com/rubylouvre/" target="_blank" rel="external">司徒正美</a><br><a href="https://github.com/dwqs/blog" target="_blank" rel="external">淡忘~浅思</a><br><a href="http://www.fefork.com/" target="_blank" rel="external">聂微东</a><br><a href="http://tostring.site/" target="_blank" rel="external">前端-小强</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;a href=&quot;#一个合格的前端工程师应该具备怎样的能力？&quot; class=&quot;headerlink&quot; title=&quot;一个合格的前端工程师应该具备怎样的能力？&quot;&gt;&lt;/a&gt;一个合格的前端工程师应该具备怎样的能力？&lt;/h2&gt;&lt;
+    
+    </summary>
+    
+    
+      <category term="随想" scheme="http://coolfireWang.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>rem 自适应方案</title>
@@ -283,6 +402,28 @@
   </entry>
   
   <entry>
+    <title>彻底理解javascript之数组和对象</title>
+    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
+    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
+    <published>2016-11-17T01:40:05.000Z</published>
+    <updated>2016-11-17T01:40:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>彻底理解javascript之 跨域</title>
     <link href="http://coolfireWang.github.io/2016/11/17/cross-domain.html"/>
     <id>http://coolfireWang.github.io/2016/11/17/cross-domain.html</id>
@@ -307,28 +448,6 @@
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
       <category term="跨域" scheme="http://coolfireWang.github.io/tags/%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之数组和对象</title>
-    <link href="http://coolfireWang.github.io/2016/11/17/arrayObj.html"/>
-    <id>http://coolfireWang.github.io/2016/11/17/arrayObj.html</id>
-    <published>2016-11-17T01:40:05.000Z</published>
-    <updated>2016-11-17T01:40:05.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="数组-array"><a href="#数组-array" class="headerlink" title="数组(array)"></a>数组(array)</h1><h1 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;数组-array&quot;&gt;&lt;a href=&quot;#数组-array&quot; class=&quot;headerlink&quot; title=&quot;数组(array)&quot;&gt;&lt;/a&gt;数组(array)&lt;/h1&gt;&lt;h1 id=&quot;对象（object）&quot;&gt;&lt;a href=&quot;#对象（object）&quot; class
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -631,26 +750,6 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 函数回调</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
-    <published>2016-09-12T07:01:22.000Z</published>
-    <updated>2016-09-12T07:01:22.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
-    
-  </entry>
-  
-  <entry>
     <title>彻底理解javascript之 设计模式</title>
     <link href="http://coolfireWang.github.io/2016/09/12/designPattern.html"/>
     <id>http://coolfireWang.github.io/2016/09/12/designPattern.html</id>
@@ -671,9 +770,9 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 垃圾回收</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/gc.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/gc.html</id>
+    <title>彻底理解javascript之 函数回调</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/callbcak.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/callbcak.html</id>
     <published>2016-09-12T07:01:22.000Z</published>
     <updated>2016-09-12T07:01:22.000Z</updated>
     
@@ -686,71 +785,7 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="垃圾回收" scheme="http://coolfireWang.github.io/tags/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之 事件&amp;循环</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/eventsLoop.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/eventsLoop.html</id>
-    <published>2016-09-12T06:47:28.000Z</published>
-    <updated>2016-09-12T06:47:28.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="事件" scheme="http://coolfireWang.github.io/tags/%E4%BA%8B%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之 同步和异步</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/syncAndAsync.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/syncAndAsync.html</id>
-    <published>2016-09-12T06:42:14.000Z</published>
-    <updated>2016-09-12T06:42:14.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="同步&amp;异步" scheme="http://coolfireWang.github.io/tags/%E5%90%8C%E6%AD%A5-%E5%BC%82%E6%AD%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript之 继承</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/extend.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/extend.html</id>
-    <published>2016-09-12T06:32:36.000Z</published>
-    <updated>2016-09-12T06:32:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>javascript的概念</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;javascript的概念&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+      <category term="函数回调" scheme="http://coolfireWang.github.io/tags/%E5%87%BD%E6%95%B0%E5%9B%9E%E8%B0%83/"/>
     
   </entry>
   
