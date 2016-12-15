@@ -5,7 +5,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://coolfireWang.github.io/"/>
-  <updated>2016-12-08T06:46:10.000Z</updated>
+  <updated>2016-12-15T11:54:53.000Z</updated>
   <id>http://coolfireWang.github.io/</id>
   
   <author>
@@ -14,6 +14,77 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端工程化学习</title>
+    <link href="http://coolfireWang.github.io/2016/12/15/feproject.html"/>
+    <id>http://coolfireWang.github.io/2016/12/15/feproject.html</id>
+    <published>2016-12-15T11:54:53.000Z</published>
+    <updated>2016-12-15T11:54:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="web大前端工程学习"><a href="#web大前端工程学习" class="headerlink" title="web大前端工程学习"></a>web大前端工程学习</h2><ul>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">h5</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">webDB</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">css3</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">Nodejs</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">web安全</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">JQ</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">类库框架</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">Angular</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">React</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">Vue</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">linux</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">ssh</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">shell</a></li>
+<li><a href="http://www.qess.me/" target="_blank" rel="external">性能及优化</a></li>
+<li><a href="http://www.qess.me/tags/tests" target="_blank" rel="external">测试</a></li>
+<li><a href="http://www.qess.me/tags/others" target="_blank" rel="external">其他</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;web大前端工程学习&quot;&gt;&lt;a href=&quot;#web大前端工程学习&quot; class=&quot;headerlink&quot; title=&quot;web大前端工程学习&quot;&gt;&lt;/a&gt;web大前端工程学习&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.qess.me/&quot; ta
+    
+    </summary>
+    
+      <category term="前端工程" scheme="http://coolfireWang.github.io/categories/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B/"/>
+    
+    
+      <category term="css3" scheme="http://coolfireWang.github.io/tags/css3/"/>
+    
+      <category term="html5" scheme="http://coolfireWang.github.io/tags/html5/"/>
+    
+      <category term="javascipt" scheme="http://coolfireWang.github.io/tags/javascipt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>彻底理解javascript的MVX模式</title>
+    <link href="http://coolfireWang.github.io/2016/12/08/mvx.html"/>
+    <id>http://coolfireWang.github.io/2016/12/08/mvx.html</id>
+    <published>2016-12-08T08:56:08.000Z</published>
+    <updated>2016-12-08T08:56:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>#mv*</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#mv*&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
+    
+    
+      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
+    
+      <category term="mvx" scheme="http://coolfireWang.github.io/tags/mvx/"/>
+    
+  </entry>
   
   <entry>
     <title>前端功能测试学习01</title>
@@ -48,26 +119,6 @@
       <category term="test" scheme="http://coolfireWang.github.io/tags/test/"/>
     
       <category term="mocha" scheme="http://coolfireWang.github.io/tags/mocha/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>彻底理解javascript的MVX模式</title>
-    <link href="http://coolfireWang.github.io/2016/12/08/mvx.html"/>
-    <id>http://coolfireWang.github.io/2016/12/08/mvx.html</id>
-    <published>2016-12-08T06:08:11.000Z</published>
-    <updated>2016-12-08T06:08:11.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="mvx" scheme="http://coolfireWang.github.io/tags/mvx/"/>
     
   </entry>
   
@@ -710,26 +761,6 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 正则</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/regex.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/regex.html</id>
-    <published>2016-09-12T07:11:02.000Z</published>
-    <updated>2016-09-12T07:11:02.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="彻底理解javascript系列" scheme="http://coolfireWang.github.io/categories/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3javascript%E7%B3%BB%E5%88%97/"/>
-    
-    
-      <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
-    
-      <category term="正则表达式" scheme="http://coolfireWang.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>彻底理解javascript之 定时器</title>
     <link href="http://coolfireWang.github.io/2016/09/12/timer.html"/>
     <id>http://coolfireWang.github.io/2016/09/12/timer.html</id>
@@ -750,11 +781,11 @@
   </entry>
   
   <entry>
-    <title>彻底理解javascript之 设计模式</title>
-    <link href="http://coolfireWang.github.io/2016/09/12/designPattern.html"/>
-    <id>http://coolfireWang.github.io/2016/09/12/designPattern.html</id>
-    <published>2016-09-12T07:01:22.000Z</published>
-    <updated>2016-09-12T07:01:22.000Z</updated>
+    <title>彻底理解javascript之 正则</title>
+    <link href="http://coolfireWang.github.io/2016/09/12/regex.html"/>
+    <id>http://coolfireWang.github.io/2016/09/12/regex.html</id>
+    <published>2016-09-12T07:11:02.000Z</published>
+    <updated>2016-09-12T07:11:02.000Z</updated>
     
     <summary type="html">
     
@@ -765,7 +796,7 @@
     
       <category term="javascript" scheme="http://coolfireWang.github.io/tags/javascript/"/>
     
-      <category term="设计模式" scheme="http://coolfireWang.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+      <category term="正则表达式" scheme="http://coolfireWang.github.io/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     
   </entry>
   
